@@ -1,0 +1,12 @@
+[user]
+	name = toshi
+	email = me@toshimaru.net
+[color]
+	branch = auto
+	diff = auto
+	status = auto
+[alias]
+	stat = status
+	br = branch
+	co = checkout
+   	c = commit
