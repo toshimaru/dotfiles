@@ -83,7 +83,10 @@ endif
 " My Settings
 colorscheme evening
 
+set sw=4
+set ts=4
 set ls=2
+set expandtab
 set wildmenu
 set nu
 set si
