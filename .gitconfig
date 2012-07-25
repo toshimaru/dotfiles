@@ -9,5 +9,7 @@
 	stat = status
 	st = status
 	br = branch
+	df = diff
 	co = checkout
+   	ci = commit
    	c = commit
