@@ -2,9 +2,7 @@
 	name = toshi
 	email = me@toshimaru.net
 [color]
-	branch = auto
-	diff = auto
-	status = auto
+	ui = auto
 [alias]
 	stat = status
 	st = status
