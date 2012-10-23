@@ -13,7 +13,6 @@ endif
 set history=50		" keep 50 lines of command line history
 set ruler		" show the cursor position all the time
 set showcmd		" display incomplete commands
-set incsearch		" do incremental searching
 
 " For Win32 GUI: remove 't' flag from 'guioptions': no tearoff menu entries
 " let &guioptions = substitute(&guioptions, "t", "", "g")
@@ -31,10 +30,8 @@ if has('mouse')
 endif
 
 " Switch syntax highlighting on, when the terminal has colors
-" Also switch on highlighting the last used search pattern.
 if &t_Co > 2 || has("gui_running")
   syntax on
-  set hlsearch
 endif
 
 " Only do this part when compiled with support for autocommands.
@@ -79,23 +76,30 @@ if !exists(":DiffOrig")
 		  \ | wincmd p | diffthis
 endif
 
-
-" My Settings
+" colorscheme
 colorscheme evening
 
-set sw=4
-set ts=4
-set ls=2
+" Tabs and Spaces
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
 set expandtab
-set wildmenu
-set nu
-set si
-set ic
-set sc
+set autoindent
+set smartindent
+set smarttab
 
+set nu
+set ls=2
+set wildmenu
+
+" Better search
+set hlsearch
+set incsearch
+
+" easy-to-use mapleader
 let mapleader=","
 
-" neocomplcache setting
+"" neocomplcache setting
 " Use neocomplcache.
 let g:neocomplcache_enable_at_startup = 1
 " Use smartcase.
