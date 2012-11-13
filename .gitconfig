@@ -8,6 +8,7 @@
 	st = status
 	br = branch
 	df = diff
+	ad = add
 	co = checkout
    	c = commit
    	ca = commit -a
