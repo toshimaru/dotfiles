@@ -3,6 +3,8 @@
 	email = me@toshimaru.net
 [color]
 	ui = auto
+[color "diff"]
+	meta = yellow bold
 [alias]
 	stat = status
 	st = status
