@@ -6,10 +6,12 @@
 [color "diff"]
 	meta = yellow bold
 [alias]
-	stat = status
 	st = status
+	stat = status
 	br = branch
 	df = diff
+	dft = difftool
+	showname = show --name-only
 	ad = add
 	co = checkout
    	c = commit
