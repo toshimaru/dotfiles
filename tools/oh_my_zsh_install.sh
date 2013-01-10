@@ -10,6 +10,8 @@ if [[ -d ~/.oh-my-zsh/themes ]]
 then 
 	for files in `ls ~/.oh-my-zsh/themes | grep -v robbyrussell.zsh-theme`
 	do 
-		echo $files
+        rm ~/.oh-my-zsh/themes/$files
 	done
 fi
+
+
