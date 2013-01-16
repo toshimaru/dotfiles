@@ -1,5 +1,8 @@
 # aliases
-alias l='ls -lA1'
 alias la='ls -lA'
+alias l='la'
 alias g='git'
-alias vgrep='grep -v'
+alias grep='grep --color'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias vgrep='grep -v --color=auto'
