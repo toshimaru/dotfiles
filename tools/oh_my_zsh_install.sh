@@ -13,5 +13,3 @@ then
         rm ~/.oh-my-zsh/themes/$files
 	done
 fi
-
-
