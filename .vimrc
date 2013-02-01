@@ -109,7 +109,7 @@ if !exists(":DiffOrig")
 endif
 
 " colorscheme
-colorscheme evening
+" colorscheme evening
 
 " Tabs and Spaces
 set tabstop=4
@@ -130,6 +130,9 @@ set incsearch
 
 " easy-to-use mapleader
 let mapleader=","
+
+" grep -> copen
+au QuickfixCmdPost make,grep,grepadd,vimgrep copen
 
 "" neocomplcache setting
 " Disable AutoComplPop. Comment out this line if AutoComplPop is not installed.
