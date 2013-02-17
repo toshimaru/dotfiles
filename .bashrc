@@ -1,12 +1,3 @@
-# aliases
-alias la='ls -lA'
-alias l='la'
-alias g='git'
-alias grep='grep --color'
-alias egrep='egrep --color=auto'
-alias fgrep='fgrep --color=auto'
-alias vgrep='grep -v --color=auto'
-
 # This function defines a 'cd' replacement function capable of keeping, 
 # displaying and accessing history of visited directories, up to 10 entries.
 # To use it, uncomment it, source this file and try 'cd --'.
@@ -65,3 +56,20 @@ cd_func ()
 }
 
 alias cd=cd_func
+
+# aliases
+alias la='ls -lA'
+alias l='la'
+alias g='git'
+alias grep='grep --color'
+alias egrep='egrep --color'
+alias fgrep='fgrep --color'
+alias vgrep='grep -v --color'
+
+# Easier navigation: .., ..., ~ and -
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+alias ~="cd ~" # `cd` is probably faster to type though
+alias -- -="cd -"
