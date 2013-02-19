@@ -96,3 +96,7 @@ alias ....="cd ../../.."
 alias .....="cd ../../../.."
 alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
+
+# `cat` with beautiful colors. requires Pygments installed.
+#                              sudo easy_install Pygments
+alias c='pygmentize -O style=monokai -f console256 -g'
