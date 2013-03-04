@@ -9,6 +9,7 @@
 	st = status
 	stat = status
 	br = branch
+	bra = branch -a
 	df = diff
 	dft = difftool
 	showname = show --name-only
