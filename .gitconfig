@@ -15,8 +15,8 @@
 	showname = show --name-only
 	ad = add
 	co = checkout
-   	c = commit
-   	ca = commit -a
+   	c = commit --verbose
+   	ca = commit -a --verbose
 	l = log --stat --abbrev-commit
    	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
    	lga = log --graph --all --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
