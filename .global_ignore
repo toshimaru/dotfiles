@@ -35,9 +35,15 @@ $RECYCLE.BIN/
 
 
 ### vim ###
-.*.sw[a-z]
+*.s[a-w][a-z]
 *.un~
 Session.vim
+.netrwhist
+*~
+
+
+### SublimeText project files ###
+*.sublime-workspace
 
 
 ### Visual Studio ###
