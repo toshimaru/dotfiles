@@ -16,7 +16,7 @@ Bundle 'gmarik/vundle'
 " original repos on github
 Bundle 'Shougo/neocomplcache'
 Bundle 'scrooloose/nerdtree'
-Bundle 'tpope/vim-rails.git'
+Bundle 'Solarized'
 " vim-scripts repos
 " Bundle 'L9'
 " non github repos
