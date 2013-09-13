@@ -100,3 +100,12 @@ alias -- -="cd -"
 # `cat` with beautiful colors. requires Pygments installed.
 #                              sudo easy_install Pygments
 alias c='pygmentize -O style=monokai -f console256 -g'
+
+# my bash PS1
+function parse_git_dirty {
+    [[ $(git status 2> /dev/null | tail -n1) != "nothing to commit (working directory clean)" ]] && echo '⚡'
+}
+function parse_git_branch {
+    git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e "s/* \(.*\)/\1/"
+}
+export PS1='\[\033[0;32m\][\u@\h \W]\[\033[0;31m\]<$(parse_git_branch)\[\033[1;33m\]$(parse_git_dirty)\[\033[0;31m\]>\[\033[m\] ➤ '
