@@ -88,6 +88,7 @@ alias grep='grep --color'
 alias egrep='egrep --color'
 alias fgrep='fgrep --color'
 alias vgrep='grep -v --color'
+alias tailf='tail -f'
 
 # Easier navigation: .., ..., ~ and -
 alias ..="cd .."
