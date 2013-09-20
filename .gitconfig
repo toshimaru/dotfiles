@@ -1,29 +1,32 @@
 [user]
-	name = toshi
-	email = me@toshimaru.net
+  name = toshi
+  email = me@toshimaru.net
 [color]
-	ui = auto
+  ui = auto
 [color "diff"]
-	meta = yellow bold
+  meta = yellow bold
+  frag = magenta bold
+  old = red bold
+  new = green bold
 [alias]
-	st = status
-	stat = status
-	br = branch
-	bra = branch -a
-	df = diff
-	dft = difftool
-	showname = show --name-only
-	ad = add
-	co = checkout
-   	c = commit --verbose
-   	ca = commit -a --verbose
-   	r = remote
-   	rv = remote -v
-	l = log --stat --abbrev-commit
-   	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
-   	lga = log --graph --all --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
-	ls = ls-files
-	spush = svn dcommit
-	spull = svn rebase
-	sfetch = svn fetch
-	k = !gitk
+  st = status
+  stat = status
+  br = branch
+  bra = branch -a
+  df = diff
+  dft = difftool
+  showname = show --name-only
+  ad = add
+  co = checkout
+  c = commit --verbose
+  ca = commit -a --verbose
+  r = remote
+  rv = remote -v
+  l = log --stat --abbrev-commit
+  lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+  lga = log --graph --all --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+  ls = ls-files
+  spush = svn dcommit
+  spull = svn rebase
+  sfetch = svn fetch
+  k = !gitk
