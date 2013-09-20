@@ -17,6 +17,8 @@
 	co = checkout
    	c = commit --verbose
    	ca = commit -a --verbose
+   	r = remote
+   	rv = remote -v
 	l = log --stat --abbrev-commit
    	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
    	lga = log --graph --all --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
