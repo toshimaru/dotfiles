@@ -102,7 +102,7 @@ alias -- -="cd -"
 #                              sudo easy_install Pygments
 alias c='pygmentize -O style=monokai -f console256 -g'
 
-# Use `git hub` command instead of `hub` command (brew install hub)
+# Expand git command with `hub` command (brew install hub)
 # eval "$(hub alias -s)"
 
 # my bash PS1
