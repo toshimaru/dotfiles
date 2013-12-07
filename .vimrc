@@ -112,8 +112,7 @@ endif
 
 
 "" My Setting
-" colorscheme
-" colorscheme evening
+" colorscheme default
 
 " Tabs and Spaces
 set tabstop=4
@@ -131,6 +130,8 @@ set wildmenu
 " Better search
 set hlsearch
 set incsearch
+set ignorecase
+set smartcase
 
 " easy-to-use mapleader
 let mapleader=","
