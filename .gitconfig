@@ -31,3 +31,5 @@
   spull = svn rebase
   sfetch = svn fetch
   k = !gitk
+  # require hub command (http://hub.github.com/)
+  # open = browse
