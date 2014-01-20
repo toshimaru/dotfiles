@@ -1,0 +1,9 @@
+# Make sure using latest Homebrew
+update
+
+# install packages
+install zsh
+install git
+install hub
+install node
+install scala
