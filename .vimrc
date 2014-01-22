@@ -12,17 +12,19 @@ call vundle#rc()
 Bundle 'gmarik/vundle'
 
 " My Bundles here:
-"
-" original repos on github
-Bundle 'Shougo/neocomplcache'
-Bundle 'Shougo/neosnippet'
-Bundle 'scrooloose/nerdtree'
-Bundle 'scrooloose/nerdcommenter'
-Bundle 'Solarized'
 " vim-scripts repos
 " Bundle 'L9'
 " non github repos
 " Bundle 'git://git.wincent.com/command-t.git'
+"
+" original repos on github
+Bundle 'Shougo/neocomplcache'
+Bundle 'Shougo/neosnippet-snippets'
+Bundle 'scrooloose/nerdtree'
+Bundle 'scrooloose/nerdcommenter'
+Bundle 'itchyny/lightline.vim'
+Bundle 'Solarized'
+" Bundle 'vim-less'
 
 filetype plugin indent on     " required!
 "
