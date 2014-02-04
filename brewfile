@@ -8,3 +8,4 @@ install hub
 install node
 install scala
 install pwgen
+install mysql
