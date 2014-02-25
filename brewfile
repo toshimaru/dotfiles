@@ -2,6 +2,7 @@
 update
 
 # install packages
+install wget
 install zsh
 install git
 install hub
