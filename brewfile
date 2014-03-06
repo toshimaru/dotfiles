@@ -3,10 +3,23 @@ update
 
 # install packages
 install wget
+install tree
+install pwgen
 install zsh
 install git
 install hub
 install node
-install scala
-install pwgen
 install mysql
+install scala
+install go
+
+# cask
+install phinze/cask/brew-cask
+cask install dropbox
+cask install skype
+cask install sublime-text
+cask install github
+cask install sourcetree
+cask install virtualbox
+cask install vagrant
+cask install iterm2
