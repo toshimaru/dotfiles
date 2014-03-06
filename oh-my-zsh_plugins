@@ -1,0 +1,12 @@
+# To install oh-my-zsh, see https://github.com/robbyrussell/oh-my-zsh
+
+# oh-my-zsh plugins. Change as needed.
+plugins=(
+    git
+    rvm
+    rails
+    gem
+    brew
+    z
+    zsh-syntax-highlighting # https://github.com/zsh-users/zsh-syntax-highlighting
+)
