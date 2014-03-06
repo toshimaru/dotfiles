@@ -9,7 +9,7 @@
   old = red bold
   new = green bold
 [alias]
-  st = status
+  st = status -s -b
   stat = status
   br = branch
   bra = branch -a
