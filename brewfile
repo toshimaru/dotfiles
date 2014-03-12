@@ -16,6 +16,8 @@ install go
 # cask
 install phinze/cask/brew-cask
 cask install dropbox
+cask install opera
+cask install firefox
 cask install skype
 cask install sublime-text
 cask install github
