@@ -6,8 +6,10 @@ plugins=(
     rvm
     rails
     gem
+    bundler
     brew
     z
     vagrant
+    sublime
     zsh-syntax-highlighting # https://github.com/zsh-users/zsh-syntax-highlighting
 )
