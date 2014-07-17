@@ -1,3 +1,8 @@
+# Make `brewfile` and run `brew bundle`
+# requirement:
+#   * homebrew
+#   * homebrew cask
+
 # Make sure using latest Homebrew
 update
 
@@ -12,10 +17,13 @@ install node
 install mysql
 install scala
 install go
+install peco
 
 # cask
 install phinze/cask/brew-cask
 cask install dropbox
+cask install evernote
+cask install google-chrome
 cask install opera
 cask install firefox
 cask install skype
