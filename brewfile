@@ -17,12 +17,14 @@ install node
 install mysql
 install scala
 install go
+brew tap peco/peco
 install peco
 
 # cask
 install phinze/cask/brew-cask
 cask install dropbox
 cask install evernote
+cask install google-japanese-ime
 cask install google-chrome
 cask install opera
 cask install firefox
