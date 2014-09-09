@@ -37,3 +37,4 @@ cask install vagrant
 cask install iterm2
 cask install slack
 cask install hipchat
+cask install kobito
