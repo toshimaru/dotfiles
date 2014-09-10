@@ -3,14 +3,15 @@
 # oh-my-zsh plugins. Change as needed.
 plugins=(
     git
+    github
+    web-search
+    z
+    sublime
     rvm
     rails
     gem
     bundler
     brew
-    z
     vagrant
-    sublime
-    github
     zsh-syntax-highlighting # https://github.com/zsh-users/zsh-syntax-highlighting
 )
