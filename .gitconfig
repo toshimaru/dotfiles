@@ -33,3 +33,4 @@
   k = !gitk
   # require hub command (http://hub.github.com/)
   # open = browse
+  # pr = pull-request -o
