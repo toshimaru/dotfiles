@@ -17,6 +17,7 @@ install node
 install mysql
 install scala
 install go
+install jq
 brew tap peco/peco
 install peco
 
