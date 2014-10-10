@@ -31,6 +31,7 @@ cask install opera
 cask install firefox
 cask install skype
 cask install sublime-text
+cask install atom
 cask install github
 cask install sourcetree
 cask install virtualbox
@@ -38,4 +39,3 @@ cask install vagrant
 cask install iterm2
 cask install slack
 cask install hipchat
-cask install kobito
