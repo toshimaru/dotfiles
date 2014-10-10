@@ -23,19 +23,28 @@ install peco
 
 # cask
 install phinze/cask/brew-cask
+## croud strage
 cask install dropbox
 cask install evernote
+cask install google-drive
+## browsers
 cask install google-japanese-ime
 cask install google-chrome
 cask install opera
 cask install firefox
+cask install google-chrome-canary
+## communicaton tool
 cask install skype
+cask install slack
+cask install hipchat
+## editor
 cask install sublime-text
 cask install atom
+## dev tools
 cask install github
 cask install sourcetree
 cask install virtualbox
 cask install vagrant
+cask install sequel-pro
+cask install mongohub
 cask install iterm2
-cask install slack
-cask install hipchat
