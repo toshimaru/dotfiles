@@ -28,17 +28,16 @@ cask install dropbox
 cask install evernote
 cask install google-drive
 ## browsers
-cask install google-japanese-ime
 cask install google-chrome
+cask install google-chrome-canary
 cask install opera
 cask install firefox
-cask install google-chrome-canary
 ## communicaton tool
 cask install skype
 cask install slack
 cask install hipchat
 ## editor
-cask install sublime-text
+cask install sublime-text-3
 cask install atom
 ## dev tools
 cask install github
@@ -48,3 +47,5 @@ cask install vagrant
 cask install sequel-pro
 cask install mongohub
 cask install iterm2
+## others
+cask install google-japanese-ime
