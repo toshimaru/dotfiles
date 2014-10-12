@@ -47,5 +47,8 @@ cask install vagrant
 cask install sequel-pro
 cask install mongohub
 cask install iterm2
+cask install dash
 ## others
 cask install google-japanese-ime
+cask install skitch
+cask install colors
