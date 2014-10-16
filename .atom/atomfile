@@ -1,8 +1,10 @@
 # To install these plugins, run command below
 # $ apm install --packages-file atomfile
 autocomplete-plus
-highlight-line
-color-picker
-open-in-github-app
 atom-sublime-select
+color-picker
+highlight-line
+open-in-github-app
+language-haml
+language-slim
 zen
