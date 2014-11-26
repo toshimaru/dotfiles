@@ -1,32 +1,27 @@
 "" vundle
-"" In order to use Vundle, see here https://github.com/gmarik/Vundle.vim#quick-start
-set nocompatible
-filetype off                   " required!
+set nocompatible              " be iMproved, required
+filetype off                  " required
 
-" set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
-" alternatively, pass a path where Vundle should install plugins
-"call vundle#begin('~/some/path/here')
 
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
 
-" My Plugins
+" " My Plugins
 Plugin 'tpope/vim-fugitive'
-Plugin 'Shougo/neocomplcache'
-Plugin 'Shougo/neosnippet-snippets'
+Plugin 'tpope/vim-rails'
+Plugin 'Shougo/neocomplcache.vim'
+Plugin 'Shougo/neosnippet.vim'
+Bundle 'Shougo/neosnippet-snippets'
 Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'itchyny/lightline.vim'
-Plugin 'altercation/vim-colors-solarized'
+Plugin 'Solarized'
 Plugin 'kien/ctrlp.vim'
 
-" All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
-" To ignore plugin indent changes, instead use:
-"filetype plugin on
 "
 " Brief help
 " :PluginList          - list configured plugins
