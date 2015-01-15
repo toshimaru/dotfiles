@@ -21,6 +21,7 @@ Plugin 'Solarized'
 Plugin 'kien/ctrlp.vim'
 Plugin 'godlygeek/tabular'
 Plugin 'plasticboy/vim-markdown'
+Plugin 'tacahiroy/ctrlp-funky'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -235,3 +236,5 @@ xmap <C-k>     <Plug>(neosnippet_expand_target)
 if has('conceal')
   set conceallevel=2 concealcursor=i
 endif
+
+let g:ctrlp_extensions = ['funky']
