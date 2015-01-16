@@ -9,6 +9,8 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 
 " " My Plugins
+Plugin 'Solarized'
+Plugin 'fontzoom.vim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-rails'
 Plugin 'Shougo/neocomplcache.vim'
@@ -17,11 +19,12 @@ Bundle 'Shougo/neosnippet-snippets'
 Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'itchyny/lightline.vim'
-Plugin 'Solarized'
 Plugin 'kien/ctrlp.vim'
 Plugin 'godlygeek/tabular'
 Plugin 'plasticboy/vim-markdown'
 Plugin 'tacahiroy/ctrlp-funky'
+Plugin 'tpope/vim-surround'
+
 
 call vundle#end()            " required
 filetype plugin indent on    " required
