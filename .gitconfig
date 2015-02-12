@@ -20,6 +20,7 @@
   co = checkout
   c = commit --verbose
   ca = commit -a --verbose
+  f = fetch
   r = remote
   rv = remote -v
   l = log --stat --abbrev-commit
