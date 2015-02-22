@@ -16,6 +16,7 @@
   df = diff
   dft = difftool
   showname = show --name-only
+  pushu = push -u
   ad = add
   co = checkout
   c = commit --verbose
