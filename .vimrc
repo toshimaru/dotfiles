@@ -110,7 +110,9 @@ endif
 
 
 "" My Setting
-" colorscheme default
+" theme
+" set background=dark
+" colorscheme solarized
 
 " Tabs and Spaces
 set tabstop=4
