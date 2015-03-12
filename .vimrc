@@ -10,20 +10,23 @@ Plugin 'gmarik/Vundle.vim'
 
 " " My Plugins
 Plugin 'Solarized'
-Plugin 'fontzoom.vim'
-Plugin 'tpope/vim-fugitive'
+Plugin 'zoom.vim'
 Plugin 'tpope/vim-rails'
+Plugin 'tpope/vim-fugitive'
+Plugin 'tpope/vim-surround'
 Plugin 'Shougo/neocomplcache.vim'
 Plugin 'Shougo/neosnippet.vim'
-Bundle 'Shougo/neosnippet-snippets'
+Plugin 'Shougo/neosnippet-snippets'
 Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/nerdcommenter'
+Plugin 'scrooloose/syntastic'
 Plugin 'itchyny/lightline.vim'
 Plugin 'kien/ctrlp.vim'
-Plugin 'godlygeek/tabular'
-Plugin 'plasticboy/vim-markdown'
 Plugin 'tacahiroy/ctrlp-funky'
-Plugin 'tpope/vim-surround'
+Plugin 'godlygeek/tabular'
+Plugin 'majutsushi/tagbar'
+Plugin 'plasticboy/vim-markdown'
+Plugin 'soramugi/auto-ctags.vim'
 
 
 call vundle#end()            " required
@@ -68,7 +71,6 @@ endif
 
 " Only do this part when compiled with support for autocommands.
 if has("autocmd")
-
   " Enable file type detection.
   " Use the default filetype settings, so that mail gets 'tw' set to 72,
   " 'cindent' is on in C files, etc.
@@ -93,12 +95,9 @@ if has("autocmd")
     \ endif
 
   augroup END
-
 else
-
   set autoindent		" always set autoindenting on
-
-endif " has("autocmd")
+endif
 
 " Convenient command to see the difference between the current buffer and the
 " file it was loaded from, thus the changes you made.
@@ -108,16 +107,16 @@ if !exists(":DiffOrig")
 		  \ | wincmd p | diffthis
 endif
 
-
 "" My Setting
-" theme
 " set background=dark
 " colorscheme solarized
 
+set clipboard=unnamed
+
 " Tabs and Spaces
-set tabstop=4
-set shiftwidth=4
-set softtabstop=4
+set tabstop=2
+set shiftwidth=2
+set softtabstop=2
 set expandtab
 set autoindent
 set smartindent
@@ -133,7 +132,7 @@ set incsearch
 set ignorecase
 set smartcase
 
-" easy-to-use mapleader
+" easier mapleader
 let mapleader=","
 
 " grep -> copen
@@ -231,7 +230,7 @@ let g:neocomplcache_omni_patterns.cpp = '[^.[:digit:] *\t]\%(\.\|->\)\|\h\w*::'
 let g:neocomplcache_omni_patterns.perl = '\h\w*->\h\w*\|\h\w*::'
 
 
-""" neosnippet
+"" neosnippet
 " Plugin key-mappings.
 imap <C-k>     <Plug>(neosnippet_expand_or_jump)
 smap <C-k>     <Plug>(neosnippet_expand_or_jump)
@@ -242,4 +241,11 @@ if has('conceal')
   set conceallevel=2 concealcursor=i
 endif
 
+"" ctrlp function jump
 let g:ctrlp_extensions = ['funky']
+nnoremap <Leader>fu :CtrlPFunky<Cr>
+
+"" Other plugin settings
+nnoremap <Leader>t :NERDTreeToggle<CR>
+nnoremap <Leader>b :TagbarToggle<CR>
+let NERDSpaceDelims=1
