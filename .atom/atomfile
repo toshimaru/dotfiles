@@ -1,9 +1,11 @@
 autocomplete-plus
-sublime-style-column-selection
+autocomplete-snippets
+cut-line
+file-icons
 color-picker
 highlight-line
-open-in-github-app
 language-haml
 language-slim
+open-in-github-app
+sublime-style-column-selection
 zen
-cut-line
