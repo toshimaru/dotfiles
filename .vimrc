@@ -108,10 +108,9 @@ if !exists(":DiffOrig")
 endif
 
 "" My Setting
-" set background=dark
+set background=dark
 " colorscheme solarized
-
-set clipboard=unnamed
+" set clipboard=unnamed
 
 " Tabs and Spaces
 set tabstop=2
@@ -121,9 +120,10 @@ set expandtab
 set autoindent
 set smartindent
 set smarttab
+set number
 
-set nu
-set ls=2
+" Better status
+set laststatus=2
 set wildmenu
 
 " Better search
