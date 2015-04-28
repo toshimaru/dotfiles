@@ -15,7 +15,6 @@ install git
 install hub
 install node
 install mysql
-#install scala
 install go
 install jq
 install peco
