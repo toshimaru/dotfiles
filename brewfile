@@ -18,6 +18,7 @@ install mysql
 install go
 install jq
 install peco
+install tig
 
 # cask
 install caskroom/cask/brew-cask
