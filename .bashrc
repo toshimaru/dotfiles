@@ -113,3 +113,6 @@ function parse_git_branch {
     git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e "s/* \(.*\)/\1/"
 }
 export PS1='\[\033[0;32m\][\u@\h \W]\[\033[0;31m\]<$(parse_git_branch)\[\033[1;33m\]$(parse_git_dirty)\[\033[0;31m\]>\[\033[m\] ➤ '
+
+# rbenv 
+eval "$(rbenv init -)"
