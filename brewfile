@@ -50,3 +50,4 @@ cask install dash
 cask install google-japanese-ime
 cask install skitch
 cask install colors
+cask install gyazo
