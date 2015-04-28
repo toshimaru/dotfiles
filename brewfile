@@ -15,15 +15,14 @@ install git
 install hub
 install node
 install mysql
-install scala
+#install scala
 install go
 install jq
-brew tap peco/peco
 install peco
 
 # cask
-install phinze/cask/brew-cask
-## croud strage
+install caskroom/cask/brew-cask
+## cloud strage
 cask install dropbox
 cask install evernote
 cask install google-drive
@@ -36,7 +35,7 @@ cask install firefox
 cask install skype
 cask install slack
 cask install hipchat
-## editor
+## editors
 cask install sublime-text-3
 cask install atom
 ## dev tools
