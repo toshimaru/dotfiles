@@ -1,7 +1,4 @@
 atom_package_names:
-  - git-plus
-  - sort-lines
-  - vim-mode
   - atom-alignment
   - atom-color-highlight
   - autocomplete-plus
@@ -10,11 +7,13 @@ atom_package_names:
   - cut-line
   - expand-selection-to-quotes
   - git-blame
+  - git-plus
+  - highlight-line
   - language-haml
   - language-slim
-  - highlight-line
-  - sublime-style-column-selection
-  - zen
+  - sort-lines
+  - Sublime-Style-Column-Selection
+  - Zen
 homebrew_package_names:
   - caskroom/cask/brew-cask
   - motemen/ghq/ghq
