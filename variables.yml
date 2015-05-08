@@ -1,4 +1,6 @@
 atom_package_names:
+  - Sublime-Style-Column-Selection
+  - Zen
   - atom-alignment
   - atom-color-highlight
   - autocomplete-plus
@@ -11,17 +13,17 @@ atom_package_names:
   - highlight-line
   - language-haml
   - language-slim
+  - project-manager
   - sort-lines
-  - Sublime-Style-Column-Selection
-  - Zen
+
 homebrew_package_names:
   - caskroom/cask/brew-cask
-  - motemen/ghq/ghq
-  - monochromegane/hoi/hoi
-  - hub
-  - go
-  - jq
   - git
+  - go
+  - hub
+  - jq
+  - monochromegane/hoi/hoi
+  - motemen/ghq/ghq
   - mysql
   - node
   - peco
@@ -32,27 +34,28 @@ homebrew_package_names:
   - tmux
   - tree
   - vim
-  - zsh
   - wget
+  - zsh
+
 homebrew_cask_package_names:
+  - atom
+  - colors
+  - dash
   - dropbox
   - evernote
-  - google-chrome
-  - opera
   - firefox
-  - slack
-  - hipchat
-  - sublime-text
-  - atom
-  - github
-  - virtualbox
-  - vagrant
-  - sequel-pro
-  - mongohub
-  - iterm2
-  - dash
-  - google-japanese-ime
-  - skitch
-  - colors
-  - gyazo
   - flashlight
+  - github
+  - google-chrome
+  - google-japanese-ime
+  - gyazo
+  - hipchat
+  - iterm2
+  - mongohub
+  - opera
+  - sequel-pro
+  - skitch
+  - slack
+  - sublime-text
+  - vagrant
+  - virtualbox
