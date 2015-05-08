@@ -1,3 +1,4 @@
 bundler
-rbenv-rehash
+git-pr-release
 pry
+rbenv-rehash
