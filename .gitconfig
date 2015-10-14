@@ -13,6 +13,7 @@
   stat = status
   br = branch
   bra = branch -a
+  brd = branch -d
   df = diff
   dft = difftool
   showname = show --name-only
