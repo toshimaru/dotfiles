@@ -1,12 +1,9 @@
 atom_package_names:
-  - Sublime-Style-Column-Selection
   - Zen
   - atom-alignment
-  - atom-color-highlight
   - autocomplete-plus
   - autocomplete-snippets
   - copy-filename
-  - cut-line
   - expand-selection-to-quotes
   - git-blame
   - git-plus
@@ -48,8 +45,6 @@ homebrew_cask_package_names:
   - github
   - google-chrome
   - google-japanese-ime
-  - gyazo
-  - hipchat
   - iterm2
   - mongohub
   - opera
