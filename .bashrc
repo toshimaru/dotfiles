@@ -25,10 +25,13 @@ function extract() {
 alias la='ls -lA'
 alias l='la'
 alias g='git'
+alias gito='git ls-files | peco | xargs open'
+
 alias grep='grep --color'
 alias egrep='egrep --color'
 alias fgrep='fgrep --color'
 alias vgrep='grep -v --color'
+
 alias tailf='tail -f'
 
 # Easier navigation: .., ..., ~ and -
@@ -40,10 +43,10 @@ alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
 
 # `cat` with beautiful colors. requires Pygments installed.
-#                              sudo easy_install Pygments
+# $ sudo easy_install Pygments
 alias c='pygmentize -O style=monokai -f console256 -g'
 
-# Expand git command with `hub` command (brew install hub)
+# Expand git command with `hub` command (installed by `brew install hub`)
 # eval "$(hub alias -s)"
 
 # my bash PS1
