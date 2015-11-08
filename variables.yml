@@ -1,5 +1,4 @@
 atom_package_names:
-  - Zen
   - atom-alignment
   - autocomplete-plus
   - autocomplete-snippets
@@ -14,13 +13,14 @@ atom_package_names:
   - sort-lines
 
 homebrew_package_names:
+  - bash
   - caskroom/cask/brew-cask
   - git
   - go
   - hub
   - jq
   - monochromegane/hoi/hoi
-  - motemen/ghq/ghq
+  - ghq
   - mysql
   - node
   - peco
@@ -41,16 +41,15 @@ homebrew_cask_package_names:
   - dropbox
   - evernote
   - firefox
-  - flashlight
-  - github
+  - github-desktop
   - google-chrome
   - google-japanese-ime
   - iterm2
-  - mongohub
   - opera
   - sequel-pro
   - skitch
   - slack
   - sublime-text
-  - vagrant
-  - virtualbox
+  # - flashlight
+  # - vagrant
+  # - virtualbox
