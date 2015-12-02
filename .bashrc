@@ -22,17 +22,16 @@ function extract() {
 }
 
 # aliases
-alias la='ls -lA'
 alias l='la'
 alias g='git'
+alias o='open'
+alias la='ls -lA'
+alias tailf='tail -f'
 alias gito='git ls-files | peco | xargs open'
-
 alias grep='grep --color'
 alias egrep='egrep --color'
 alias fgrep='fgrep --color'
 alias vgrep='grep -v --color'
-
-alias tailf='tail -f'
 
 # Easier navigation: .., ..., ~ and -
 alias ..="cd .."
@@ -41,13 +40,6 @@ alias ....="cd ../../.."
 alias .....="cd ../../../.."
 alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
-
-# `cat` with beautiful colors. requires Pygments installed.
-# $ sudo easy_install Pygments
-alias c='pygmentize -O style=monokai -f console256 -g'
-
-# Expand git command with `hub` command (installed by `brew install hub`)
-# eval "$(hub alias -s)"
 
 # my bash PS1
 function parse_git_dirty {
@@ -58,5 +50,12 @@ function parse_git_branch {
 }
 export PS1='\[\033[0;32m\][\u@\h \W]\[\033[0;31m\]<$(parse_git_branch)\[\033[1;33m\]$(parse_git_dirty)\[\033[0;31m\]>\[\033[m\] ➤ '
 
+# `cat` with beautiful colors. requires Pygments installed.
+# $ sudo easy_install Pygments
+alias c='pygmentize -O style=monokai -f console256 -g'
+
+# Expand git command with `hub` command (installed by `brew install hub`)
+# eval "$(hub alias -s)"
+
 # rbenv 
-eval "$(rbenv init -)"
+# eval "$(rbenv init -)"
