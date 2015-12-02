@@ -2,9 +2,9 @@ atom_package_names:
   - atom-alignment
   - autocomplete-plus
   - autocomplete-snippets
+  - blame
   - copy-filename
   - expand-selection-to-quotes
-  - git-blame
   - git-plus
   - highlight-line
   - language-haml
