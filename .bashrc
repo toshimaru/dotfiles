@@ -52,10 +52,11 @@ export PS1='\[\033[0;32m\][\u@\h \W]\[\033[0;31m\]<$(parse_git_branch)\[\033[1;3
 
 # `cat` with beautiful colors. requires Pygments installed.
 # $ sudo easy_install Pygments
-alias c='pygmentize -O style=monokai -f console256 -g'
+# alias c='pygmentize -O style=monokai -f console256 -g'
 
 # Expand git command with `hub` command (installed by `brew install hub`)
 # eval "$(hub alias -s)"
+# alias gpro='git browse -- pull/$(git rev-parse --abbrev-ref HEAD)'
 
 # rbenv 
 # eval "$(rbenv init -)"
