@@ -38,3 +38,5 @@
   # require hub command (http://hub.github.com/)
   # open = browse
   # pr = pull-request -o
+  # prs = !hub issue | grep '/pull/'
+  # i = !hub issue | grep -v '/pull/'
