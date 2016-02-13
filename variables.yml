@@ -36,7 +36,6 @@ homebrew_package_names:
 
 homebrew_cask_package_names:
   - atom
-  - colors
   - dash
   - dropbox
   - evernote
