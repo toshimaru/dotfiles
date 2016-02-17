@@ -37,8 +37,8 @@
   k = !gitk
   # require hub command (http://hub.github.com/)
   # open = browse
-  # pr = pull-request -o
   # issues = browse -- issues
+  # pr = pull-request -o
+  # prs = browse -- pulls
   # list-issues = !hub issue | grep -v '/pull/'
-  # pulls = browse -- pulls
   # list-pulls = !hub issue | grep '/pull/'
