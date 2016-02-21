@@ -21,7 +21,7 @@ GEM
     net-ssh (3.0.2)
     net-telnet (0.1.1)
     rainbow (2.1.0)
-    serverkit (0.6.5)
+    serverkit (0.6.7)
       activemodel
       activesupport
       bundler
