@@ -14,6 +14,7 @@ atom_package_names:
 
 homebrew_package_names:
   - bash
+  - ctags
   - git
   - go
   - hub
