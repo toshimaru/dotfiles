@@ -61,3 +61,6 @@ export PS1='\[\033[0;32m\][\u@\h \W]\[\033[0;31m\]<$(parse_git_branch)\[\033[1;3
 
 # rbenv 
 # eval "$(rbenv init -)"
+
+# export GOPATH=$HOME
+# PATH=$PATH:$GOPATH/bin
