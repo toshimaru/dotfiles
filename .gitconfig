@@ -39,6 +39,7 @@
   # open = browse
   # issues = browse -- issues
   # pr = pull-request -o
+  # pro = !hub browse -- pull/$(git rev-parse --abbrev-ref HEAD)
   # prs = browse -- pulls
   # list-issues = !hub issue | grep -v '/pull/'
   # list-pulls = !hub issue | grep '/pull/'
