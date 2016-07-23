@@ -1,5 +1,7 @@
 language: objective-c
 os:
   - osx
+rvm:
+  - 2.2.2
 script:
   - bundle exec serverkit apply recipe.yml.erb --variables=variables.yml
