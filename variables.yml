@@ -36,7 +36,6 @@ homebrew_package_names:
 
 homebrew_cask_package_names:
   - atom
-  - dash
   - dropbox
   - evernote
   - firefox
@@ -49,6 +48,5 @@ homebrew_cask_package_names:
   - skitch
   - slack
   - sublime-text
-  # - flashlight
   # - vagrant
   # - virtualbox
