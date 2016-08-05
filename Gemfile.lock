@@ -37,7 +37,7 @@ GEM
       specinfra (>= 2.31.1)
     sfl (2.2)
     slop (3.6.0)
-    specinfra (2.60.1)
+    specinfra (2.60.3)
       net-scp
       net-ssh (>= 2.7, < 4.0)
       net-telnet
