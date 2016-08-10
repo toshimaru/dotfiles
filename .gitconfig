@@ -20,6 +20,7 @@
   pushu = push -u
   ad = add
   co = checkout
+  cobrd = !CURRENT_BRANCH=$(git rev-parse --abbrev-ref HEAD) && git checkout $1 && git pull && git branch -d $CURRENT_BRANCH
   c = commit --verbose
   ca = commit -a --verbose
   f = fetch
