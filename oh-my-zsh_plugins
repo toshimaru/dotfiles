@@ -2,15 +2,14 @@
 
 # oh-my-zsh plugins. Change as needed.
 plugins=(
+    brew
+    bundler
+    gem
     git
     github
-    z
-    sublime
-    rvm
     rails
-    gem
-    bundler
-    brew
-    vagrant
+    rbenv
+    z
+    
     zsh-syntax-highlighting # https://github.com/zsh-users/zsh-syntax-highlighting
 )
