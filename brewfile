@@ -20,8 +20,6 @@ install jq
 install peco
 install tig
 
-# cask
-install caskroom/cask/brew-cask
 ## cloud strage
 cask install dropbox
 cask install evernote
