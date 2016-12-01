@@ -45,5 +45,6 @@
   # prs = browse -- pulls
   # list-issues = !hub issue | grep -v '/pull/'
   # list-pulls = !hub issue | grep '/pull/'
+  # ci = ci-status
 [ghq]
   root = ~/src
