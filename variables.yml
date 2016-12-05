@@ -19,7 +19,6 @@ homebrew_package_names:
   - go
   - hub
   - jq
-  - monochromegane/hoi/hoi
   - ghq
   - mysql
   - node
