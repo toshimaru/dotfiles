@@ -31,6 +31,7 @@ Plugin 'majutsushi/tagbar'
 Plugin 'plasticboy/vim-markdown'
 Plugin 'soramugi/auto-ctags.vim'
 Plugin 'slim-template/vim-slim'
+Plugin 'jiangmiao/auto-pairs'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
