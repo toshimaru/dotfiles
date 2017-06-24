@@ -22,11 +22,14 @@ atom_package_names:
 homebrew_package_names:
   - bash
   - ctags
+  - docker
+  - docker-compose
+  - docker-machine
+  - ghq
   - git
   - go
   - hub
   - jq
-  - ghq
   - mysql
   - node
   - peco
@@ -38,6 +41,7 @@ homebrew_package_names:
   - tree
   - vim
   - wget
+  - z
   - zsh
 
 homebrew_cask_package_names:
@@ -54,5 +58,4 @@ homebrew_cask_package_names:
   - skitch
   - slack
   - sublime-text
-  # - vagrant
-  # - virtualbox
+  - virtualbox
