@@ -21,6 +21,19 @@ function extract() {
     fi
 }
 
+# peco + ssh
+function s() {
+  ssh $(awk '
+    tolower($1)=="host" {
+      for (i=2; i<=NF; i++) {
+        if ($i !~ "[*?]") {
+          print $i
+        }
+      }
+    }
+  ' ~/.ssh/config | sort | peco)
+}
+
 # aliases
 alias l='la'
 alias g='git'
@@ -58,7 +71,7 @@ alias c='highlight -O ansi'
 # eval "$(hub alias -s)"
 # alias pro='git browse -- pull/$(git rev-parse --abbrev-ref HEAD)'
 
-# rbenv 
+# rbenv
 # eval "$(rbenv init -)"
 
 # export GOPATH=$HOME

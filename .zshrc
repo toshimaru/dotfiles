@@ -30,19 +30,6 @@ zplug load --verbose
 # bindkey "$terminfo[cuu1]" history-substring-search-up
 # bindkey "$terminfo[cud1]" history-substring-search-down
 
-# peco + ssh
-function s() {
-  ssh $(awk '
-    tolower($1)=="host" {
-      for (i=2; i<=NF; i++) {
-        if ($i !~ "[*?]") {
-          print $i
-        }
-      }
-    }
-  ' ~/.ssh/config | sort | peco)
-}
-
 # peco + ghq
 function ghq-peco-src () {
     local selected_dir=$(ghq list --full-path | peco --query "$LBUFFER")
