@@ -37,6 +37,7 @@ homebrew_package_names:
   - rbenv
   - rbenv-default-gems
   - redis
+  - the_silver_searcher
   - tig
   - tmux
   - tree
