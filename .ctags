@@ -1,0 +1,7 @@
+--languages=Ruby
+--recurse
+--exclude=.git
+--exclude=log
+--exclude=coverage
+--exclude=*.min.js
+--exclude=node_modules
