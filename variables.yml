@@ -18,6 +18,7 @@ atom_package_names:
   - sort-lines
   - toggle-quotes
   - todo-show
+  # - hybrid-next-syntax
 
 homebrew_package_names:
   - bash
