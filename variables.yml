@@ -60,6 +60,7 @@ homebrew_cask_package_names:
   - sequel-pro
   - skitch
   - slack
+  - spotify
   - sublime-text
   - virtualbox
   - visual-studio-code
