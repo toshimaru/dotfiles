@@ -12,7 +12,7 @@ GEM
     hashie (3.5.6)
     highline (1.7.8)
     i18n (0.8.6)
-    minitest (5.10.2)
+    minitest (5.10.3)
     net-scp (1.2.1)
       net-ssh (>= 2.6.5)
     net-ssh (4.1.0)
@@ -39,7 +39,7 @@ GEM
       specinfra (>= 2.31.1)
     sfl (2.3)
     slop (3.6.0)
-    specinfra (2.69.0)
+    specinfra (2.70.1)
       net-scp
       net-ssh (>= 2.7, < 5.0)
       net-telnet
