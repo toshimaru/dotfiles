@@ -39,13 +39,14 @@
   sfetch = svn fetch
   k = !gitk
   # require hub command (http://hub.github.com/)
+  # ci = ci-status
   # open = browse
+  # open-issue = !hub browse -- pull/${1}
   # issues = browse -- issues
-  # pr = pull-request -o
+  # myissues = issue -a toshimaru
   # pro = !hub browse -- pull/$(git rev-parse --abbrev-ref HEAD)
   # prs = browse -- pulls
   # list-issues = !hub issue | grep -v '/pull/'
   # list-pulls = !hub issue | grep '/pull/'
-  # ci = ci-status
 [ghq]
   root = ~/src
