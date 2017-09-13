@@ -39,7 +39,7 @@
   sfetch = svn fetch
   k = !gitk
   # require hub command (http://hub.github.com/)
-  # ci = ci-status
+  # ci = ci-status -v
   # open = browse
   # open-issue = !hub browse -- pull/${1}
   # issues = browse -- issues
