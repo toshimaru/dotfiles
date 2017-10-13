@@ -41,7 +41,6 @@ alias o='open'
 alias p='peco'
 alias la='ls -lA'
 alias tailf='tail -f'
-alias gito='git ls-files | peco | xargs open'
 # colorized grep
 alias grep='grep --color'
 alias egrep='egrep --color'
@@ -66,7 +65,6 @@ export PS1='\[\033[0;32m\][\u@\h \W]\[\033[0;31m\]<$(parse_git_branch)\[\033[1;3
 
 # Expand git command with `hub` command (installed by `brew install hub`)
 # eval "$(hub alias -s)"
-# alias pro='git browse -- pull/$(git rev-parse --abbrev-ref HEAD)'
 
 # rbenv
 # eval "$(rbenv init -)"
