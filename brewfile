@@ -21,29 +21,24 @@ install peco
 install tig
 
 ## cloud strage
+# cask install google-chrome-canary
+cask install atom
+cask install dash
 cask install dropbox
 cask install evernote
-cask install google-drive
-## browsers
-cask install google-chrome
-cask install google-chrome-canary
-cask install opera
 cask install firefox
-## communicaton tool
+cask install github
+cask install google-chrome
+cask install google-drive
+cask install google-japanese-ime
+cask install iterm2
+cask install opera
+cask install sequel-pro
+cask install skitch
 cask install skype
 cask install slack
-## editors
-cask install sublime-text-3
-cask install atom
-## dev tools
-cask install github
-cask install virtualbox
+cask install sublime-text
 cask install vagrant
-cask install sequel-pro
-# cask install mongohub
-cask install iterm2
-cask install dash
-## others
-cask install google-japanese-ime
-cask install skitch
-# cask install gyazo
+cask install virtualbox
+cask install visual-studio-code
+cask install wireshark

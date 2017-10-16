@@ -48,6 +48,7 @@ homebrew_package_names:
   - zsh
 
 homebrew_cask_package_names:
+  - amazon-music
   - atom
   - dropbox
   - evernote
@@ -65,3 +66,4 @@ homebrew_cask_package_names:
   - sublime-text
   - virtualbox
   - visual-studio-code
+  - wireshark
