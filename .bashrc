@@ -34,6 +34,10 @@ function s() {
   ' ~/.ssh/config | sort | peco)
 }
 
+function diffspec() {
+	bundle exec rspec $(git status --short | awk '{ print $2 }')
+}
+
 # aliases
 alias l='la'
 alias g='git'
