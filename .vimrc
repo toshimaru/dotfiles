@@ -1,3 +1,8 @@
+""
+"" Easier setup instruction:
+""   $ cp $VIMRUNTIME/vimrc_example.vim ~/.vimrc
+""
+
 "" vundle
 " Install via `$ git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
 set nocompatible              " be iMproved, required
