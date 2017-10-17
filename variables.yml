@@ -56,6 +56,7 @@ homebrew_cask_package_names:
   - github-desktop
   - google-chrome
   - google-japanese-ime
+  - insomnia
   - iterm2
   - minecraft
   - opera
