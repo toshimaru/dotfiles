@@ -35,7 +35,7 @@ function s() {
 }
 
 function diffspec() {
-	bundle exec rspec $(git status --short | awk '{ print $2 }')
+	bundle exec rspec $(git status --short | grep 'spec.rb' | awk '{ print $2 }')
 }
 
 # aliases
