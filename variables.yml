@@ -1,4 +1,5 @@
 atom_package_names:
+  # - hybrid-next-syntax
   - atom-alignment
   - autocomplete-emojis
   - autocomplete-paths
@@ -8,17 +9,20 @@ atom_package_names:
   - copy-filename
   - expand-selection-to-quotes
   - git-plus
+  - go-plus
   - highlight-line
   - language-haml
+  - language-rspec
   - language-slim
   - linter
   - linter-eslint
   - linter-rubocop
+  - open-in-github-app
+  - platformio-ide-terminal
   - project-manager
   - sort-lines
-  - toggle-quotes
   - todo-show
-  # - hybrid-next-syntax
+  - toggle-quotes
 
 homebrew_package_names:
   - bash
