@@ -18,9 +18,7 @@ GEM
       net-ssh (>= 2.6.5)
     net-ssh (4.2.0)
     net-telnet (0.1.1)
-    rainbow (2.2.2)
-      rake
-    rake (12.3.0)
+    rainbow (3.0.0)
     serverkit (0.6.7)
       activemodel
       activesupport
