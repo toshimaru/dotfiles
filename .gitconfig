@@ -47,7 +47,7 @@
   # myissues = issue -a toshimaru
   # pro = !hub browse -- pull/$(git rev-parse --abbrev-ref HEAD)
   # prs = browse -- pulls
-  # list-issues = !hub issue | grep -v '/pull/'
-  # list-pulls = !hub issue | grep '/pull/'
+  # ls-issues = !hub issue | grep -v '/pull/'
+  # ls-pulls = !hub issue | grep '/pull/'
 [ghq]
   root = ~/src
