@@ -34,6 +34,7 @@
   yesterday = log --since=yesterday.midnight --until=midnight --author='toshimaru' --oneline --all
   ls = ls-files
   lso = !git ls-files | peco | xargs open
+  lsv = !git ls-files | peco | xargs -o vim
   rc = rebase --continue
   spush = svn dcommit
   spull = svn rebase
