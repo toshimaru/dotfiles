@@ -7,18 +7,19 @@
 update
 
 # install packages
-install wget
-install tree
-install pwgen
-install zsh
 install git
-install hub
-install node
-install mysql
 install go
+install hub
+install iproute2mac
 install jq
+install mysql
+install node
 install peco
+install pwgen
 install tig
+install tree
+install wget
+install zsh
 
 ## cloud strage
 # cask install google-chrome-canary
