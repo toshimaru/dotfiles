@@ -118,6 +118,7 @@ endif
 
 "" My Setting
 set background=dark
+set cursorline
 " colorscheme solarized
 " set clipboard=unnamed
 
