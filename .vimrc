@@ -14,10 +14,11 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 " Run to install:
 "   $ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-Plugin 'gmarik/Vundle.vim'
+Plugin 'VundleVim/Vundle.vim'
 
 " " My Plugins
 Plugin 'Solarized'
+Plugin 'kristijanhusak/vim-hybrid-material'
 Plugin 'zoom.vim'
 Plugin 'tpope/vim-rails'
 Plugin 'tpope/vim-fugitive'
@@ -33,7 +34,6 @@ Plugin 'kien/ctrlp.vim'
 Plugin 'tacahiroy/ctrlp-funky'
 Plugin 'godlygeek/tabular'
 Plugin 'majutsushi/tagbar'
-Plugin 'plasticboy/vim-markdown'
 Plugin 'soramugi/auto-ctags.vim'
 Plugin 'slim-template/vim-slim'
 Plugin 'jiangmiao/auto-pairs'
@@ -119,7 +119,10 @@ endif
 "" My Setting
 set background=dark
 set cursorline
-" colorscheme solarized
+" colorschem hybrid_reverse
+" let g:hybrid_transparent_background = 1
+" let g:enable_bold_font = 1
+" set cursorline
 " set clipboard=unnamed
 
 " Tabs and Spaces
