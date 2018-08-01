@@ -40,6 +40,8 @@
   spull = svn rebase
   sfetch = svn fetch
   k = !gitk
+  grep-open = "!git grep ${1} | peco | awk -F ': ' '{print $1}' | sed 's/://' | xargs -o vim"
+  grep-ghopen = "!git grep -n ${1} | peco | awk -F ': ' '{print $1}' | sed 's/:/#L/' | xargs -I PATH hub browse -- blob/master/PATH"
   # require hub command (http://hub.github.com/)
   # ci = ci-status -v
   # open = browse
