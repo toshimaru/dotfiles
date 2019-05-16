@@ -1,5 +1,4 @@
 atom_package_names:
-  # - hybrid-next-syntax
   - atom-alignment
   - autocomplete-emojis
   - autocomplete-paths
@@ -23,18 +22,21 @@ atom_package_names:
   - sort-lines
   - todo-show
   - toggle-quotes
+  # - hybrid-next-syntax
 
 homebrew_package_names:
   - bash
+  - bat
   - ccat
+  - circleci
   - ctags
   - ghq
-  - lastpass-cli
   - git
   - go
   - hub
   - iproute2mac
   - jq
+  - lastpass-cli
   - mysql
   - node
   - peco
@@ -44,12 +46,14 @@ homebrew_package_names:
   - the_silver_searcher
   - tig
   - tmux
+  - travis
   - tree
   - vim
+  - watch
   - wget
   - z
   - zsh
-  # use docker app (installed by cask)
+  # NOTE: Use `docker` Desktop App (installed by cask)
   # - docker
   # - docker-compose
   # - docker-machine
@@ -57,16 +61,20 @@ homebrew_package_names:
 homebrew_cask_package_names:
   - amazon-music
   - atom
+  - chromedriver
   - docker
   - dropbox
   - evernote
   - firefox
   - github
   - google-chrome
+  - google-cloud-sdk
   - google-japanese-ime
   - insomnia
   - iterm2
+  - jetbrains-toolbox
   - minecraft
+  - ngrok
   - opera
   - sequel-pro
   - skitch
@@ -76,3 +84,4 @@ homebrew_cask_package_names:
   - visual-studio-code
   - wireshark
   # - virtualbox
+  # - karabiner-elements
