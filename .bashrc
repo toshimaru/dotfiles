@@ -39,8 +39,10 @@ function diffspec() {
 }
 
 # aliases
-alias l='la'
+alias b='bat -p'
+alias c='ccat --bg=dark'
 alias g='git'
+alias l='la'
 alias o='open'
 alias p='peco'
 alias la='ls -lA'
@@ -55,8 +57,6 @@ alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
-alias ~="cd ~" # `cd` is probably faster to type though
-alias -- -="cd -"
 
 # my bash PS1
 function parse_git_dirty {
