@@ -24,7 +24,6 @@ install zsh
 ## cloud strage
 # cask install google-chrome-canary
 cask install atom
-cask install dash
 cask install dropbox
 cask install evernote
 cask install firefox
@@ -39,7 +38,5 @@ cask install skitch
 cask install skype
 cask install slack
 cask install sublime-text
-cask install vagrant
-cask install virtualbox
 cask install visual-studio-code
 cask install wireshark
