@@ -1,4 +1,3 @@
---languages=Ruby
 --recurse
 --exclude=.git
 --exclude=log
