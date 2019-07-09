@@ -66,7 +66,7 @@ homebrew_cask_package_names:
   - dropbox
   - evernote
   - firefox
-  - github-desktop
+  - github
   - google-chrome
   - google-cloud-sdk
   - google-japanese-ime
