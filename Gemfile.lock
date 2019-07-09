@@ -36,6 +36,8 @@ GEM
     serverkit-rbenv (0.3.3)
       serverkit (>= 0.6.2)
       specinfra (>= 2.31.1)
+    serverkit-vscode (0.1.1)
+      serverkit
     sfl (2.3)
     slop (3.6.0)
     specinfra (2.78.2)
@@ -56,6 +58,7 @@ DEPENDENCIES
   serverkit-atom
   serverkit-homebrew
   serverkit-rbenv
+  serverkit-vscode
 
 BUNDLED WITH
-   1.16.1
+   1.17.3
