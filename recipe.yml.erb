@@ -17,8 +17,10 @@ resources:
     name: <%= atom_package_name %>
   <%- end -%>
   
+  <%- vscode_package_names.each do |vscode_package_name| -%>
   - type: vscode_package
-    name: toshimaru.hybrid-next-plus
+    name: <%= vscode_package_name %>
+  <%- end -%>
 
   - type: rbenv_ruby
     version: 2.6.3
