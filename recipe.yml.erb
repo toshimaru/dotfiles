@@ -16,7 +16,7 @@ resources:
   - type: atom_package
     name: <%= atom_package_name %>
   <%- end -%>
-  
+
   <%- vscode_package_names.each do |vscode_package_name| -%>
   - type: vscode_package
     name: <%= vscode_package_name %>
@@ -25,3 +25,13 @@ resources:
   - type: rbenv_ruby
     version: 2.6.3
     global: true
+
+  - type: defaults
+    domain: com.apple.dock
+    key: autohide
+    value: 1
+
+  - type: git
+    repository: https://github.com/toshimaru/dotfiles.git
+    path: /Users/<%= ENV["USER"] %>/src/github.com/toshimaru/dotfiles
+    status: updated
