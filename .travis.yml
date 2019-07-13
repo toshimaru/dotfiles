@@ -4,4 +4,4 @@ os:
 rvm:
   - 2.3.7
 script:
-  - bundle exec serverkit apply recipe.yml.erb --variables=variables.yml
+  - bundle exec serverkit apply serverkit.yml.erb --variables=serverkit-variables.yml
