@@ -26,6 +26,13 @@ resources:
     version: 2.6.3
     global: true
 
+  # oh-my-zsh
+  - type: command
+    script: sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+  # plug.vim
+  - type: command
+    script: curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
   - type: git
     repository: https://github.com/toshimaru/dotfiles.git
     path: /Users/<%= ENV["USER"] %>/src/github.com/toshimaru/dotfiles
