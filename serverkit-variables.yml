@@ -88,6 +88,7 @@ homebrew_cask_package_names:
 
 vscode_package_names:
   - BriteSnow.vscode-toggle-quotes
+  - chunsen.bracket-select
   - CoenraadS.bracket-pair-colorizer
   - dbankier.vscode-quick-select
   - donjayamanne.githistory
