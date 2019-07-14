@@ -43,14 +43,14 @@
   grepv = "!f() { git grep ${1} | peco | awk -F ':' '{print $1}' | xargs -o vim; }; f"
   grep-ghopen = "!git grep -n ${1} | peco | awk -F ':' '{print $1}' | sed 's/:/#L/' | xargs -I PATH hub browse -- blob/master/PATH"
   # require hub command (http://hub.github.com/)
-  # ci = ci-status -v
-  # open = browse
-  # open-issue = !hub browse -- pull/${1}
-  # issues = browse -- issues
-  # myissues = issue -a toshimaru
-  # pro = !hub browse -- pull/$(git rev-parse --abbrev-ref HEAD)
-  # prs = browse -- pulls
-  # ls-issues = !hub issue | grep -v '/pull/'
-  # ls-pulls = !hub issue | grep '/pull/'
+  ci = ci-status -v
+  open = browse
+  open-issue = !hub browse -- pull/${1}
+  issues = browse -- issues
+  myissues = issue -a toshimaru
+  pro = !hub browse -- pull/$(git rev-parse --abbrev-ref HEAD)
+  prs = browse -- pulls
+  ls-issues = !hub issue | grep -v '/pull/'
+  ls-pulls = !hub issue | grep '/pull/'
 [ghq]
   root = ~/src
