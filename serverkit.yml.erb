@@ -36,6 +36,16 @@ resources:
     path: /Users/<%= ENV["USER"] %>/src/github.com/toshimaru/dotfiles
     status: updated
 
+  - type: symlink
+    destination: /Users/<%= ENV["USER"] %>/src/github.com/toshimaru/dotfiles/.pryrc
+    source: /Users/<%= ENV["USER"] %>/.pryrc
+  - type: symlink
+    destination: /Users/<%= ENV["USER"] %>/src/github.com/toshimaru/dotfiles/.vimrc
+    source: /Users/<%= ENV["USER"] %>/.vimrc
+  - type: symlink
+    destination: /Users/<%= ENV["USER"] %>/src/github.com/toshimaru/dotfiles/.rbenv/default-gems
+    source: /Users/<%= ENV["USER"] %>/.rbenv/default-gems  
+
   - type: defaults
     domain: com.apple.dock
     key: autohide
