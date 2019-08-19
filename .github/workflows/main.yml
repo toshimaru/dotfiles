@@ -4,17 +4,11 @@ on: [push]
 
 jobs:
   build:
-
-    runs-on: ubuntu-latest
-
+    runs-on: macos-latest
     steps:
     - uses: actions/checkout@master
-    - name: Set up Ruby
-      uses: actions/setup-ruby@v1
-      with:
-        version: 2.3.x
     - name: Build and test with Rake
       run: |
-        gem install bundler
+        bundle update --bundler
         bundle install --jobs 4 --retry 3
-        bundle exec rake
+        bundle exec serverkit apply serverkit.yml.erb --variables=serverkit-variables.yml
