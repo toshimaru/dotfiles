@@ -1,7 +1,5 @@
 name: Ruby
-
 on: [push]
-
 jobs:
   build:
     runs-on: macos-latest
@@ -12,3 +10,4 @@ jobs:
         bundle update --bundler
         bundle install --jobs 4 --retry 3
         bundle exec serverkit apply serverkit.yml.erb --variables=serverkit-variables.yml
+        bundle exec serverkit check serverkit.yml.erb --variables=serverkit-variables.yml || exit 0
