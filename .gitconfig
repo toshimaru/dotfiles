@@ -12,6 +12,8 @@
   fetch-pulls = fetch origin +refs/pull/*:refs/remotes/pull/*
   st = status -s -b
   stat = status
+  sw = switch
+  swc = swcitch -c
   br = branch
   bra = branch -a
   brd = branch -d
