@@ -1,5 +1,3 @@
-[![Build Status](https://travis-ci.org/toshimaru/dotfiles.svg?branch=master)](https://travis-ci.org/toshimaru/dotfiles)
-
 # dotfiles 
 
 My dotfiles.
