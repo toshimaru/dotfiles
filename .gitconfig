@@ -13,7 +13,7 @@
   st = status -s -b
   stat = status
   sw = switch
-  swc = swcitch -c
+  swc = switch -c
   br = branch
   bra = branch -a
   brd = branch -d
