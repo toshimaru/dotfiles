@@ -1,3 +1,5 @@
+[![Actions Status](https://github.com/toshimaru/dotfiles/workflows/Ruby/badge.svg)](https://github.com/toshimaru/dotfiles/actions)
+
 # dotfiles 
 
 My dotfiles.
