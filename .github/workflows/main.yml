@@ -5,6 +5,10 @@ jobs:
     runs-on: macos-latest
     steps:
     - uses: actions/checkout@master
+    - name: Set up Ruby
+      uses: actions/setup-ruby@v1
+      with:
+        version: 2.4.x
     - name: Build and test with Rake
       run: |
         bundle update --bundler
