@@ -60,7 +60,6 @@ homebrew_package_names:
   # - docker-machine
 
 homebrew_cask_package_names:
-  - amazon-music
   - atom
   - chromedriver
   - docker
@@ -84,6 +83,7 @@ homebrew_cask_package_names:
   - sublime-text
   - visual-studio-code
   - wireshark
+  # - amazon-music
   # - virtualbox
   # - karabiner-elements
 
