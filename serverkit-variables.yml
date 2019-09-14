@@ -24,25 +24,29 @@ atom_package_names:
 homebrew_package_names:
   - bash
   - bat
-  - toshimaru/nyan/nyan
   - circleci
   - ctags
   - ghq
   - git
   - go
+  - goreleaser
+  - htop
   - hub
   - iproute2mac
   - jq
   - lastpass-cli
+  - memcached
   - mysql
   - node
   - peco
+  - postgresql
   - rbenv
   - rbenv-default-gems
   - redis
   - the_silver_searcher
   - tig
   - tmux
+  - toshimaru/nyan/nyan
   - travis
   - tree
   - vim
