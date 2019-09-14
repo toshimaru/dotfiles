@@ -85,10 +85,13 @@ homebrew_cask_package_names:
   # - karabiner-elements
 
 vscode_package_names:
+  - bierner.emojisense
   - BriteSnow.vscode-toggle-quotes
   - chunsen.bracket-select
   - CoenraadS.bracket-pair-colorizer
   - donjayamanne.githistory
+  - castwide.solargraph
+  - christian-kohler.path-intellisense
   - eamodio.gitlens
   - GitHub.vscode-pull-request-github
   - misogi.ruby-rubocop
