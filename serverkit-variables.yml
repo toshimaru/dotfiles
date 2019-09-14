@@ -96,7 +96,6 @@ vscode_package_names:
   - GitHub.vscode-pull-request-github
   - misogi.ruby-rubocop
   - ms-azuretools.vscode-docker
-  - ms-python.python
   - ms-vscode-remote.remote-containers
   - ms-vscode-remote.remote-ssh
   - ms-vscode-remote.remote-ssh-edit
@@ -113,4 +112,6 @@ vscode_package_names:
   - toshimaru.hybrid-next-plus
   - wraith13.open-in-github-desktop
   - yzhang.markdown-all-in-one
+  - zhuangtongfa.Material-theme
   - ziyasal.vscode-open-in-github
+  # - SirTobi.code-clip-ring
