@@ -43,9 +43,10 @@ alias b='bat -p'
 alias c='ccat --bg=dark'
 alias g='git'
 alias l='la'
+alias la='ls -lA'
+alias ls='ls -G'
 alias o='open'
 alias p='peco'
-alias la='ls -lA'
 alias tailf='tail -f'
 # colorized grep
 alias grep='grep --color'
@@ -58,14 +59,8 @@ alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
 
-# my bash PS1
-function parse_git_dirty {
-    [[ $(git status 2> /dev/null | tail -n1) != "nothing to commit (working directory clean)" ]] && echo '⚡'
-}
-function parse_git_branch {
-    git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e "s/* \(.*\)/\1/"
-}
-export PS1='\[\033[0;32m\][\u@\h \W]\[\033[0;31m\]<$(parse_git_branch)\[\033[1;33m\]$(parse_git_dirty)\[\033[0;31m\]>\[\033[m\] ➤ '
+# https://starship.rs
+# eval "$(starship init bash)"
 
 # Expand git command with `hub` command (installed by `brew install hub`)
 # eval "$(hub alias -s)"
