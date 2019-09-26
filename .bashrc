@@ -21,6 +21,12 @@ function extract() {
     fi
 }
 
+function ghqp() {
+  cd $(ghq list --full-path | peco)
+  clear
+}
+bind -x '"\C-g": ghqp'
+
 # peco + ssh
 function s() {
   ssh $(awk '
@@ -42,18 +48,19 @@ function diffspec() {
 alias b='bat -p'
 alias c='ccat --bg=dark'
 alias g='git'
-alias l='la'
-alias la='ls -lA'
-alias ls='ls -G'
 alias o='open'
 alias p='peco'
 alias tailf='tail -f'
+# ls
+alias l='la'
+alias la='ls -lA'
+alias ls='ls -G'
 # colorized grep
 alias grep='grep --color'
 alias egrep='egrep --color'
 alias fgrep='fgrep --color'
 alias vgrep='grep -v --color'
-# Easier navigation: .., ..., ~ and -
+# Easier navigation
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."

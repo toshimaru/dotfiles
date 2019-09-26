@@ -12,7 +12,7 @@ bindkey '^T' ghq-peco-src
 
 # history + peco
 function peco-history-selection() {
-  BUFFER=$(\history -n 1 | tail -r  | awk '!a[$0]++' | peco --query "$LBUFFER")
+  BUFFER=$(history -n 1 | tail -r  | awk '!a[$0]++' | peco --query "$LBUFFER")
   CURSOR=${#BUFFER}
   zle clear-screen
 }
