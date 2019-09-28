@@ -18,3 +18,6 @@ function peco-history-selection() {
 }
 zle -N peco-history-selection
 bindkey '^V' peco-history-selection
+
+# https://starship.rs (font: https://github.com/powerline/fonts)
+# eval "$(starship init zsh)"
