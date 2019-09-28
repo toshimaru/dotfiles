@@ -43,7 +43,7 @@ homebrew_package_names:
 - rbenv
 - rbenv-default-gems
 - redis
-- the_silver_searcher
+- the_platinum_searcher
 - tig
 - tmux
 - toshimaru/nyan/nyan
@@ -52,7 +52,7 @@ homebrew_package_names:
 - vim
 - watch
 - wget
-- z
+- fasd
 - zsh
 # NOTE: Use `docker` Desktop App (installed by cask)
 # - docker
@@ -73,6 +73,7 @@ homebrew_cask_package_names:
 - insomnia
 - iterm2
 - jetbrains-toolbox
+- kindle
 - minecraft
 - ngrok
 - opera
