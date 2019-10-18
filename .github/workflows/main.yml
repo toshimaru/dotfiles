@@ -2,7 +2,7 @@ name: Ruby
 on: [push]
 jobs:
   build:
-    runs-on: macos-latest
+    runs-on: macOS-10.14
     steps:
     - uses: actions/checkout@master
     - name: Set up Ruby
