@@ -11,7 +11,7 @@ GEM
       zeitwerk (~> 2.1, >= 2.1.8)
     concurrent-ruby (1.1.5)
     hashie (3.6.0)
-    highline (2.0.2)
+    highline (2.0.3)
     i18n (1.7.0)
       concurrent-ruby (~> 1.0)
     minitest (5.12.2)
