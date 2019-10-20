@@ -70,6 +70,7 @@ homebrew_cask_package_names:
 - google-chrome
 - google-cloud-sdk
 - google-japanese-ime
+- imageoptim
 - insomnia
 - iterm2
 - jetbrains-toolbox
