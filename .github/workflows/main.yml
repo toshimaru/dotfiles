@@ -9,9 +9,10 @@ jobs:
       uses: actions/setup-ruby@v1
       with:
         ruby-version: 2.4.x
+    - name: Setup tmate session
+      uses: mxschmitt/action-tmate@v1
     - name: Build and test with Rake
       run: |
-        bundle update --bundler
         bundle install --jobs 4 --retry 3
         bundle exec serverkit apply serverkit.yml.erb --variables=serverkit-variables.yml
         # just check, ignore exit status
