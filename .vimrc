@@ -7,7 +7,6 @@
 call plug#begin('~/.vim/plugged')
 Plug 'fatih/vim-go'
 Plug 'itchyny/lightline.vim'
-Plug 'jiangmiao/auto-pairs'
 Plug 'kien/ctrlp.vim'
 Plug 'scrooloose/nerdcommenter'
 Plug 'scrooloose/nerdtree'
