@@ -90,32 +90,32 @@ homebrew_cask_package_names:
 # - karabiner-elements
 
 vscode_package_names:
-# - bierner.emojisense
-# - BriteSnow.vscode-toggle-quotes
-# - chunsen.bracket-select
-# - CoenraadS.bracket-pair-colorizer
-# - donjayamanne.githistory
-# - castwide.solargraph
-# - christian-kohler.path-intellisense
-# - eamodio.gitlens
-# - GitHub.vscode-pull-request-github
-# - misogi.ruby-rubocop
-# - ms-azuretools.vscode-docker
-# - ms-vscode-remote.remote-containers
-# - ms-vscode-remote.remote-ssh
-# - ms-vscode-remote.remote-ssh-edit
-# - ms-vscode-remote.remote-ssh-explorer
-# - ms-vscode-remote.remote-wsl
-# - ms-vscode-remote.vscode-remote-extensionpack
-# - ms-vscode.atom-keybindings
-# - ms-vscode.Go
-# - ms-vsliveshare.vsliveshare
-# - rebornix.ruby
-# - robert.ruby-snippet
-# - syler.sass-indented
-# - sensourceinc.vscode-sql-beautify
-# - toshimaru.hybrid-next-plus
-# - wraith13.open-in-github-desktop
-# - yzhang.markdown-all-in-one
-# - zhuangtongfa.Material-theme
-# - ziyasal.vscode-open-in-github
+- bierner.emojisense
+- BriteSnow.vscode-toggle-quotes
+- chunsen.bracket-select
+- CoenraadS.bracket-pair-colorizer
+- donjayamanne.githistory
+- castwide.solargraph
+- christian-kohler.path-intellisense
+- eamodio.gitlens
+- GitHub.vscode-pull-request-github
+- misogi.ruby-rubocop
+- ms-azuretools.vscode-docker
+- ms-vscode-remote.remote-containers
+- ms-vscode-remote.remote-ssh
+- ms-vscode-remote.remote-ssh-edit
+- ms-vscode-remote.remote-ssh-explorer
+- ms-vscode-remote.remote-wsl
+- ms-vscode-remote.vscode-remote-extensionpack
+- ms-vscode.atom-keybindings
+- ms-vscode.Go
+- ms-vsliveshare.vsliveshare
+- rebornix.ruby
+- robert.ruby-snippet
+- syler.sass-indented
+- sensourceinc.vscode-sql-beautify
+- toshimaru.hybrid-next-plus
+- wraith13.open-in-github-desktop
+- yzhang.markdown-all-in-one
+- zhuangtongfa.Material-theme
+- ziyasal.vscode-open-in-github
