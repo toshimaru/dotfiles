@@ -11,6 +11,7 @@ jobs:
         ruby-version: 2.4.x
     - name: bundle install
       run: |
+        bundle config path vendor/bundle
         bundle update --bundler
         bundle install --jobs 4 --retry 3
     - name: Comment out VSCode packages
