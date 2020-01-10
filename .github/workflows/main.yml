@@ -9,10 +9,15 @@ jobs:
       uses: actions/setup-ruby@v1
       with:
         ruby-version: 2.4.x
-    - name: Build and test with Rake
+    - name: bundle install
       run: |
         bundle update --bundler
         bundle install --jobs 4 --retry 3
+    - name: Comment out VSCode packages
+      run: |
+        sed -i -e "s/^vscode_package_names/_vscode_package_names/" serverkit-variables.yml
+    - name: serverkit apply & check
+      run: |
         bundle exec serverkit apply serverkit.yml.erb --variables=serverkit-variables.yml
         # just check, ignore exit status
         bundle exec serverkit check serverkit.yml.erb --variables=serverkit-variables.yml || exit 0
