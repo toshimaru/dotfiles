@@ -66,6 +66,3 @@ DEPENDENCIES
   serverkit-homebrew
   serverkit-rbenv
   serverkit-vscode
-
-BUNDLED WITH
-   1.17.3
