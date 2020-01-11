@@ -9,6 +9,12 @@ jobs:
       uses: actions/setup-ruby@v1
       with:
         ruby-version: 2.4.x
+    - uses: actions/cache@v1
+      with:
+        path: vendor/bundle
+        key: ${{ runner.os }}-bundler-${{ hashFiles('**/Gemfile.lock') }}
+        restore-keys: |
+          ${{ runner.os }}-bundler-
     - name: bundle install
       run: |
         bundle config path vendor/bundle
