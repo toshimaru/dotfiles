@@ -2,8 +2,6 @@ atom_package_names:
 - atom-alignment
 - autocomplete-emojis
 - autocomplete-paths
-- autocomplete-plus
-- autocomplete-snippets
 - blame
 - copy-filename
 - expand-selection-to-quotes
@@ -119,4 +117,3 @@ vscode_package_names:
 - yzhang.markdown-all-in-one
 - zhuangtongfa.Material-theme
 - ziyasal.vscode-open-in-github
-# - SirTobi.code-clip-ring
