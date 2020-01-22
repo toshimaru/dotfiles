@@ -45,7 +45,7 @@ GEM
       serverkit
     sfl (2.3)
     slop (3.6.0)
-    specinfra (2.82.7)
+    specinfra (2.82.8)
       net-scp
       net-ssh (>= 2.7)
       net-telnet (= 0.1.1)
