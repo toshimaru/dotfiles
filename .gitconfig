@@ -50,9 +50,8 @@
   open-issue = !hub browse -- pull/${1}
   issues = browse -- issues
   myissues = issue -a toshimaru
-  pro = !hub browse -- pull/$(git rev-parse --abbrev-ref HEAD)
   prs = browse -- pulls
-  ls-issues = !hub issue | grep -v '/pull/'
-  ls-pulls = !hub issue | grep '/pull/'
+  pro = !hub browse -- pull/$(git branch --show-current)
+  prl = pr list
 [ghq]
   root = ~/src
