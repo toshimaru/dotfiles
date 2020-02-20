@@ -21,6 +21,7 @@
   dft = difftool
   showname = show --name-only
   pushu = push -u
+  poh = push origin HEAD
   ad = add
   co = checkout
   c = commit --verbose
