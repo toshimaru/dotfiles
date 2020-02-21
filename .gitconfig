@@ -41,6 +41,8 @@
   spull = svn rebase
   sfetch = svn fetch
   k = !gitk
+  pick = cherry-pick
+  wip = commit --allow-empty -m '[ci skip] WIP'
   # require peco (https://github.com/peco/peco)
   lso = !git ls-files | peco | xargs open
   lsv = !git ls-files | peco | xargs -o vim
