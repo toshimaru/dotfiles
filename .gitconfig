@@ -44,6 +44,7 @@
   pick = cherry-pick
   wip = commit --allow-empty -m '[ci skip] WIP'
   # require peco (https://github.com/peco/peco)
+  lsc = !git ls-files | peco | xargs cat
   lso = !git ls-files | peco | xargs open
   lsv = !git ls-files | peco | xargs -o vim
   grepv = "!f() { git grep ${1} | peco | awk -F ':' '{print $1}' | xargs -o vim; }; f"
