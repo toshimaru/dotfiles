@@ -60,3 +60,6 @@
   prl = pr list
 [ghq]
   root = ~/src
+[rebase]
+  autosquash = true
+  autostash = true
