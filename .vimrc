@@ -50,5 +50,4 @@ au QuickfixCmdPost make,grep,grepadd,vimgrep copen
 
 " Other plugin settings
 map <Leader>t :NERDTreeToggle<CR>
-map <Leader>b :TagbarToggle<CR>
 let g:NERDSpaceDelims = 1
