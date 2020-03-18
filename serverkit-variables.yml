@@ -88,15 +88,19 @@ homebrew_cask_package_names:
 # - karabiner-elements
 
 vscode_package_names:
+- aaron-bond.better-comments
+- alefragnani.Bookmarks
+- arcticicestudio.nord-visual-studio-code
 - bierner.emojisense
 - BriteSnow.vscode-toggle-quotes
-- chunsen.bracket-select
-- CoenraadS.bracket-pair-colorizer
-- donjayamanne.githistory
 - castwide.solargraph
 - christian-kohler.path-intellisense
+- chunsen.bracket-select
+- CoenraadS.bracket-pair-colorizer-2
+- donjayamanne.githistory
 - eamodio.gitlens
 - GitHub.vscode-pull-request-github
+- mechatroner.rainbow-csv
 - misogi.ruby-rubocop
 - ms-azuretools.vscode-docker
 - ms-vscode-remote.remote-containers
@@ -110,8 +114,8 @@ vscode_package_names:
 - ms-vsliveshare.vsliveshare
 - rebornix.ruby
 - robert.ruby-snippet
-- syler.sass-indented
 - sensourceinc.vscode-sql-beautify
+- syler.sass-indented
 - toshimaru.hybrid-next-plus
 - wraith13.open-in-github-desktop
 - yzhang.markdown-all-in-one
