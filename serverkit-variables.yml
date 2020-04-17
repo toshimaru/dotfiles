@@ -60,6 +60,7 @@ homebrew_package_names:
 homebrew_cask_package_names:
 - atom
 - chromedriver
+- discord
 - docker
 - dropbox
 - evernote
@@ -81,11 +82,15 @@ homebrew_cask_package_names:
 - slack
 - spotify
 - sublime-text
+- typora
 - visual-studio-code
 - wireshark
+- zoomus
 # - amazon-music
-# - virtualbox
+# - enpass
 # - karabiner-elements
+# - notion
+# - virtualbox
 
 vscode_package_names:
 - aaron-bond.better-comments
