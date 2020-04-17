@@ -24,6 +24,7 @@ homebrew_package_names:
 - bat
 - circleci
 - ctags
+- fasd
 - ghq
 - git
 - go
@@ -41,6 +42,7 @@ homebrew_package_names:
 - rbenv
 - rbenv-default-gems
 - redis
+- starship
 - the_platinum_searcher
 - tig
 - tmux
@@ -50,7 +52,6 @@ homebrew_package_names:
 - vim
 - watch
 - wget
-- fasd
 - zsh
 # NOTE: Use `docker` Desktop App (installed by cask)
 # - docker
@@ -60,6 +61,7 @@ homebrew_package_names:
 homebrew_cask_package_names:
 - atom
 - chromedriver
+- discord
 - docker
 - dropbox
 - evernote
@@ -81,11 +83,15 @@ homebrew_cask_package_names:
 - slack
 - spotify
 - sublime-text
+- typora
 - visual-studio-code
 - wireshark
+- zoomus
 # - amazon-music
-# - virtualbox
+# - enpass
 # - karabiner-elements
+# - notion
+# - virtualbox
 
 vscode_package_names:
 - aaron-bond.better-comments
