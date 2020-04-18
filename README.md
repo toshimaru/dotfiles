@@ -6,5 +6,5 @@ My dotfiles.
 
 ## Powered By
 
-* [Homebrew](http://brew.sh/)
+* [Homebrew](https://brew.sh/)
 * [serverkit/serverkit](https://github.com/serverkit/serverkit)
