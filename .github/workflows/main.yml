@@ -5,10 +5,10 @@ jobs:
     runs-on: macOS-10.15
     steps:
     - uses: actions/checkout@v2
-    - name: Set up Ruby
-      uses: actions/setup-ruby@v1
-      with:
-        ruby-version: 2.4.x
+    # - name: Set up Ruby
+      # uses: actions/setup-ruby@v1
+      # with:
+        # ruby-version: 2.4.x
     - uses: actions/cache@v1
       with:
         path: vendor/bundle
