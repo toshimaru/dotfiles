@@ -60,6 +60,7 @@ homebrew_package_names:
 
 homebrew_cask_package_names:
 - atom
+- brave-browser
 - chromedriver
 - discord
 - docker
@@ -77,7 +78,6 @@ homebrew_cask_package_names:
 - kindle
 - minecraft
 - ngrok
-- opera
 - sequel-pro
 - skitch
 - slack
@@ -90,7 +90,6 @@ homebrew_cask_package_names:
 # - amazon-music
 # - enpass
 # - karabiner-elements
-# - notion
 # - virtualbox
 
 vscode_package_names:
