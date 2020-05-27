@@ -39,6 +39,7 @@ homebrew_package_names:
 - node
 - peco
 - postgresql
+- pstree
 - rbenv
 - rbenv-default-gems
 - redis
