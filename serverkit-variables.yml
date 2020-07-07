@@ -22,7 +22,6 @@ atom_package_names:
 homebrew_package_names:
 - bash
 - bat
-- circleci
 - ctags
 - fasd
 - ghq
@@ -33,7 +32,6 @@ homebrew_package_names:
 - hub
 - iproute2mac
 - jq
-- lastpass-cli
 - memcached
 - mysql
 - node
@@ -46,14 +44,14 @@ homebrew_package_names:
 - starship
 - the_platinum_searcher
 - tig
-- tmux
 - toshimaru/nyan/nyan
-- travis
 - tree
 - vim
 - watch
 - wget
 - zsh
+# - lastpass-cli
+# - tmux
 # NOTE: Use `docker` Desktop App (installed by cask)
 # - docker
 # - docker-compose
@@ -79,6 +77,7 @@ homebrew_cask_package_names:
 - kindle
 - minecraft
 - ngrok
+- opera
 - sequel-pro
 - skitch
 - slack
@@ -88,8 +87,8 @@ homebrew_cask_package_names:
 - visual-studio-code
 - wireshark
 - zoomus
+- enpass
 # - amazon-music
-# - enpass
 # - karabiner-elements
 # - virtualbox
 
@@ -117,7 +116,7 @@ vscode_package_names:
 - ms-vscode-remote.remote-wsl
 - ms-vscode-remote.vscode-remote-extensionpack
 - ms-vscode.atom-keybindings
-- ms-vscode.Go
+- golang.go
 - ms-vsliveshare.vsliveshare
 - rebornix.ruby
 - robert.ruby-snippet
