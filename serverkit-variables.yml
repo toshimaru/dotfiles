@@ -117,7 +117,7 @@ vscode_package_names:
 - ms-vscode-remote.remote-wsl
 - ms-vscode-remote.vscode-remote-extensionpack
 - ms-vscode.atom-keybindings
-- ms-vscode.Go
+- golang.go
 - ms-vsliveshare.vsliveshare
 - rebornix.ruby
 - robert.ruby-snippet
