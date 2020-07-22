@@ -22,7 +22,6 @@ install wget
 install zsh
 
 ## cloud strage
-# cask install google-chrome-canary
 cask install atom
 cask install dropbox
 cask install evernote
@@ -33,7 +32,7 @@ cask install google-drive
 cask install google-japanese-ime
 cask install iterm2
 cask install opera
-cask install sequel-pro
+cask install sequel-ace
 cask install skitch
 cask install skype
 cask install slack
