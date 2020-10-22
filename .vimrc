@@ -1,7 +1,4 @@
-" Easier initial setup:
-"   source $VIMRUNTIME/defaults.vim
-"     or
-"   $ cp $VIMRUNTIME/vimrc_example.vim ~/.vimrc
+source $VIMRUNTIME/defaults.vim
 
 " vim-plug: https://github.com/junegunn/vim-plug
 call plug#begin('~/.vim/plugged')
