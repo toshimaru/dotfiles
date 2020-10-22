@@ -1,4 +1,4 @@
-[![Actions Status](https://github.com/toshimaru/dotfiles/workflows/Ruby/badge.svg)](https://github.com/toshimaru/dotfiles/actions)
+![Setup](https://github.com/toshimaru/dotfiles/workflows/Setup/badge.svg)
 
 # dotfiles 
 
