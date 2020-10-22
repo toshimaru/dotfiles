@@ -1,1 +1,1 @@
-colorscheme solarized
+colorscheme hybrid
