@@ -6,13 +6,17 @@ Plug 'fatih/vim-go'
 Plug 'itchyny/lightline.vim'
 Plug 'jiangmiao/auto-pairs'
 Plug 'kien/ctrlp.vim'
+Plug 'neoclide/coc.nvim'
 Plug 'scrooloose/nerdcommenter'
 Plug 'scrooloose/nerdtree'
 Plug 'tomasr/molokai'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-sensible'
 Plug 'tpope/vim-surround'
+" colorscheme
+Plug 'tomasr/molokai'
 Plug 'vim-scripts/Solarized'
+Plug 'cocopon/iceberg.vim'
 Plug 'w0ng/vim-hybrid'
 call plug#end()
 
