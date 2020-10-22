@@ -20,22 +20,15 @@ Plug 'cocopon/iceberg.vim'
 Plug 'w0ng/vim-hybrid'
 call plug#end()
 
-set background=dark
+" color theme
+colorscheme torte
+highlight Pmenu ctermfg=lightgrey ctermbg=black
+highlight PmenuSel ctermfg=white ctermbg=gray
+
 set cursorline
-
-" Tabs and Spaces
-set tabstop=2
 set shiftwidth=2
-set softtabstop=2
-set expandtab
-set autoindent
-set smartindent
-set smarttab
 set number
-
-" Better status
-set laststatus=2
-set wildmenu
+set nobackup
 
 " Better search
 set hlsearch
@@ -45,9 +38,6 @@ set smartcase
 
 " easier mapleader
 let mapleader=","
-
-" grep -> copen
-au QuickfixCmdPost make,grep,grepadd,vimgrep copen
 
 " Other plugin settings
 map <Leader>t :NERDTreeToggle<CR>
