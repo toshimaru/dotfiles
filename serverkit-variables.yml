@@ -1,5 +1,4 @@
 atom_package_names:
-- atom-alignment
 - autocomplete-emojis
 - autocomplete-paths
 - blame
@@ -7,17 +6,16 @@ atom_package_names:
 - expand-selection-to-quotes
 - git-plus
 - go-plus
-- highlight-line
 - hybrid-next-syntax
 - language-rspec
 - linter
 - linter-eslint
 - linter-rubocop
+- markdown-writer
 - open-in-github-app
-- platformio-ide-terminal
-- project-manager
 - sort-lines
 - toggle-quotes
+- vim-mode-plus
 
 homebrew_package_names:
 - bash
