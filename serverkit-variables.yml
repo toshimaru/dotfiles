@@ -1,5 +1,4 @@
 atom_package_names:
-- atom-alignment
 - autocomplete-emojis
 - autocomplete-paths
 - blame
@@ -7,17 +6,16 @@ atom_package_names:
 - expand-selection-to-quotes
 - git-plus
 - go-plus
-- highlight-line
 - hybrid-next-syntax
 - language-rspec
 - linter
 - linter-eslint
 - linter-rubocop
+- markdown-writer
 - open-in-github-app
-- platformio-ide-terminal
-- project-manager
 - sort-lines
 - toggle-quotes
+- vim-mode-plus
 
 homebrew_package_names:
 - bash
@@ -50,11 +48,6 @@ homebrew_package_names:
 - watch
 - wget
 - zsh
-# - tmux
-# NOTE: Use `docker` Desktop App (installed by cask)
-# - docker
-# - docker-compose
-# - docker-machine
 
 homebrew_cask_package_names:
 - atom
@@ -104,21 +97,21 @@ vscode_package_names:
 - eamodio.gitlens
 - Equinusocio.vsc-material-theme
 - GitHub.vscode-pull-request-github
+- golang.go
 - mechatroner.rainbow-csv
 - misogi.ruby-rubocop
 - ms-azuretools.vscode-docker
 - ms-vscode-remote.remote-containers
 - ms-vscode-remote.remote-ssh
 - ms-vscode-remote.remote-ssh-edit
-- ms-vscode-remote.remote-ssh-explorer
 - ms-vscode-remote.remote-wsl
 - ms-vscode-remote.vscode-remote-extensionpack
 - ms-vscode.atom-keybindings
-- golang.go
 - ms-vsliveshare.vsliveshare
 - rebornix.ruby
 - robert.ruby-snippet
 - sensourceinc.vscode-sql-beautify
+- sporto.rails-go-to-spec
 - syler.sass-indented
 - toshimaru.hybrid-next-plus
 - wraith13.open-in-github-desktop

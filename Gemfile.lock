@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/toshimaru/serverkit-homebrew.git
+  revision: e79f44a9450b6e16200c3460b31fe43fb5a75f26
+  specs:
+    serverkit-homebrew (0.0.5)
+      serverkit
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -36,8 +43,6 @@ GEM
     serverkit-defaults (0.0.3)
       plist
       serverkit
-    serverkit-homebrew (0.0.5)
-      serverkit
     serverkit-rbenv (0.3.3)
       serverkit (>= 0.6.2)
       specinfra (>= 2.31.1)
@@ -63,6 +68,9 @@ DEPENDENCIES
   serverkit
   serverkit-atom
   serverkit-defaults
-  serverkit-homebrew
+  serverkit-homebrew!
   serverkit-rbenv
   serverkit-vscode
+
+BUNDLED WITH
+   2.1.4
