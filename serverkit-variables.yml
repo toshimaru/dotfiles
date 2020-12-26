@@ -48,11 +48,6 @@ homebrew_package_names:
 - watch
 - wget
 - zsh
-# - tmux
-# NOTE: Use `docker` Desktop App (installed by cask)
-# - docker
-# - docker-compose
-# - docker-machine
 
 homebrew_cask_package_names:
 - atom
