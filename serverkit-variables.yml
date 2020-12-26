@@ -97,6 +97,7 @@ vscode_package_names:
 - eamodio.gitlens
 - Equinusocio.vsc-material-theme
 - GitHub.vscode-pull-request-github
+- golang.go
 - mechatroner.rainbow-csv
 - misogi.ruby-rubocop
 - ms-azuretools.vscode-docker
@@ -106,11 +107,11 @@ vscode_package_names:
 - ms-vscode-remote.remote-wsl
 - ms-vscode-remote.vscode-remote-extensionpack
 - ms-vscode.atom-keybindings
-- golang.go
 - ms-vsliveshare.vsliveshare
 - rebornix.ruby
 - robert.ruby-snippet
 - sensourceinc.vscode-sql-beautify
+- sporto.rails-go-to-spec
 - syler.sass-indented
 - toshimaru.hybrid-next-plus
 - wraith13.open-in-github-desktop
