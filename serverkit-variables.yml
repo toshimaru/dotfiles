@@ -22,6 +22,7 @@ homebrew_package_names:
 - bat
 - ctags
 - fasd
+- gh
 - ghq
 - git
 - go
