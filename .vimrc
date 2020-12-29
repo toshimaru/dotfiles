@@ -6,7 +6,8 @@ Plug 'fatih/vim-go'
 Plug 'itchyny/lightline.vim'
 Plug 'jiangmiao/auto-pairs'
 Plug 'kien/ctrlp.vim'
-Plug 'neoclide/coc.nvim'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'rhysd/vim-gfm-syntax'
 Plug 'scrooloose/nerdcommenter'
 Plug 'scrooloose/nerdtree'
 Plug 'tpope/vim-fugitive'
@@ -14,6 +15,7 @@ Plug 'tpope/vim-sensible'
 Plug 'tpope/vim-surround'
 " colorscheme
 Plug 'cocopon/iceberg.vim'
+Plug 'crusoexia/vim-monokai'
 Plug 'kaicataldo/material.vim'
 Plug 'tomasr/molokai'
 Plug 'vim-scripts/Solarized'
@@ -21,12 +23,10 @@ Plug 'w0ng/vim-hybrid'
 call plug#end()
 
 " color theme
-colorscheme torte
-highlight Pmenu ctermfg=lightgrey ctermbg=black
-highlight PmenuSel ctermfg=white ctermbg=gray
+colorscheme molokai
+set termguicolors
 
 set cursorline
-set shiftwidth=2
 set number
 set nobackup
 
