@@ -78,7 +78,7 @@ homebrew_cask_package_names:
 - typora
 - visual-studio-code
 - wireshark
-- zoomus
+- zoom
 - enpass
 # - amazon-music
 # - karabiner-elements
