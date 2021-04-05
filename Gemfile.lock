@@ -12,7 +12,7 @@ GEM
     concurrent-ruby (1.1.8)
     hashie (4.1.0)
     highline (2.0.3)
-    i18n (1.8.9)
+    i18n (1.8.10)
       concurrent-ruby (~> 1.0)
     minitest (5.14.4)
     net-scp (3.0.0)
