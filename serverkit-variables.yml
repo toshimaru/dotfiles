@@ -21,7 +21,6 @@ homebrew_package_names:
 - bash
 - bat
 - ctags
-- fasd
 - gh
 - ghq
 - git
@@ -93,8 +92,6 @@ vscode_package_names:
 - castwide.solargraph
 - christian-kohler.path-intellisense
 - chunsen.bracket-select
-- CoenraadS.bracket-pair-colorizer-2
-- donjayamanne.githistory
 - eamodio.gitlens
 - Equinusocio.vsc-material-theme
 - GitHub.vscode-pull-request-github
