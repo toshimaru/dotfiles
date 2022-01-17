@@ -19,7 +19,7 @@ GEM
     net-ssh (6.1.0)
     net-telnet (0.1.1)
     plist (3.6.0)
-    rainbow (3.0.0)
+    rainbow (3.1.1)
     serverkit (0.7.0)
       activemodel
       activesupport (>= 5.0.0)
