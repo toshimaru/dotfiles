@@ -58,8 +58,12 @@
   prs = browse -- pulls
   pro = !hub browse -- pull/$(git branch --show-current)
   prl = pr list
+  # require GitHub Desktop App
+  app = !github .
 [ghq]
   root = ~/src
 [rebase]
   autosquash = true
   autostash = true
+[core]
+  autocrlf = true
