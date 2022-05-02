@@ -66,4 +66,4 @@
   autosquash = true
   autostash = true
 [core]
-  autocrlf = true
+  autocrlf = input
