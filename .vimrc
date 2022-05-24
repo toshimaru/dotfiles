@@ -2,6 +2,7 @@ source $VIMRUNTIME/defaults.vim
 
 " vim-plug: https://github.com/junegunn/vim-plug
 call plug#begin('~/.vim/plugged')
+Plug 'airblade/vim-gitgutter'
 Plug 'fatih/vim-go'
 Plug 'itchyny/lightline.vim'
 Plug 'jiangmiao/auto-pairs'
@@ -20,10 +21,10 @@ Plug 'kaicataldo/material.vim'
 Plug 'tomasr/molokai'
 Plug 'vim-scripts/Solarized'
 Plug 'w0ng/vim-hybrid'
+Plug 'Rigellute/rigel'
 call plug#end()
 
-" color theme
-colorscheme molokai
+colorscheme material
 set termguicolors
 
 set cursorline
