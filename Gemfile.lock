@@ -30,8 +30,6 @@ GEM
       slop (~> 3.4)
       specinfra (>= 2.31.0)
       unix-crypt
-    serverkit-atom (0.0.1)
-      serverkit
     serverkit-defaults (0.0.3)
       plist
       serverkit
@@ -54,15 +52,14 @@ GEM
     unix-crypt (1.3.0)
 
 PLATFORMS
-  ruby
+  x86_64-darwin-21
 
 DEPENDENCIES
   serverkit
-  serverkit-atom
   serverkit-defaults
   serverkit-homebrew
   serverkit-rbenv
   serverkit-vscode
 
 BUNDLED WITH
-   2.1.4
+   2.3.13
