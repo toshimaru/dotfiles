@@ -12,11 +12,6 @@ resources:
     name: <%= homebrew_cask_package_name %>
   <%- end -%>
 
-  <%- atom_package_names.each do |atom_package_name| -%>
-  - type: atom_package
-    name: <%= atom_package_name %>
-  <%- end -%>
-
   <%- vscode_package_names.each do |vscode_package_name| -%>
   - type: vscode_package
     name: <%= vscode_package_name %>
