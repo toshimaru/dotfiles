@@ -1,22 +1,3 @@
-atom_package_names:
-- autocomplete-emojis
-- autocomplete-paths
-- blame
-- copy-filename
-- expand-selection-to-quotes
-- git-plus
-- go-plus
-- hybrid-next-syntax
-- language-rspec
-- linter
-- linter-eslint
-- linter-rubocop
-- markdown-writer
-- open-in-github-app
-- sort-lines
-- toggle-quotes
-- vim-mode-plus
-
 homebrew_package_names:
 - bash
 - bat
@@ -50,7 +31,6 @@ homebrew_package_names:
 - zsh
 
 homebrew_cask_package_names:
-- atom
 - chromedriver
 - discord
 - docker
