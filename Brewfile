@@ -14,4 +14,5 @@ cask "iterm2"
 cask "sublime-text"
 cask "visual-studio-code"
 
-mas "Magnet", id: 441258766
+# Require Mac App Store sign in.
+# mas "Magnet", id: 441258766
