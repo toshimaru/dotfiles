@@ -13,3 +13,5 @@ cask "enpass"
 cask "iterm2"
 cask "sublime-text"
 cask "visual-studio-code"
+
+mas "Magnet", id: 441258766
