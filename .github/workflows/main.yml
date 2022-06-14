@@ -3,17 +3,29 @@ name: Setup
 on: [push]
 
 jobs:
-  build:
+  macOS-11-build:
     runs-on: macOS-11
     steps:
     - uses: actions/checkout@v2
     - name: brew install
       run: brew bundle
-    - name: bundle install
-      run: bundle install --jobs 4 --retry 3
-    - name: serverkit apply
+    - name: bundle install & serverkit apply
+      run: ./serverkit-setup.bash
+    - name: serverkit check
       run: |
-        bundle exec serverkit apply serverkit.yml.erb --variables=serverkit-variables.yml
+        # just check, ignore exit status
+        bundle exec serverkit check serverkit.yml.erb --variables=serverkit-variables.yml || exit 0
+  macOS-12-build:
+    runs-on: macOS-12
+    steps:
+    - uses: actions/checkout@v2
+    - uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: '2.7'
+    - name: brew install
+      run: brew bundle
+    - name: bundle install & serverkit apply
+      run: ./serverkit-setup.bash
     - name: serverkit check
       run: |
         # just check, ignore exit status

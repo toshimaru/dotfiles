@@ -13,3 +13,6 @@ cask "enpass"
 cask "iterm2"
 cask "sublime-text"
 cask "visual-studio-code"
+
+# Require Mac App Store sign in.
+# mas "Magnet", id: 441258766

@@ -1,4 +1,4 @@
 # cp .rbenv/default-gems $(rbenv root)/
 bundler
 pry
-rbenv-rehash
+bundled_gems
