@@ -7,12 +7,7 @@ jobs:
     runs-on: macOS-11
     steps:
     - uses: actions/checkout@v2
-    - uses: ruby/setup-ruby@v1
-      with:
-        ruby-version: '2.6'
-    - name: brew install
-      run: brew bundle
-    - name: bundle install & serverkit apply
+    - name: brew bundle & bundle install & serverkit apply
       run: ./serverkit-setup.bash
     - name: serverkit check
       run: |
@@ -22,12 +17,7 @@ jobs:
     runs-on: macOS-12
     steps:
     - uses: actions/checkout@v2
-    - uses: ruby/setup-ruby@v1
-      with:
-        ruby-version: '2.7'
-    - name: brew install
-      run: brew bundle
-    - name: bundle install & serverkit apply
+    - name: brew bundle & bundle install & serverkit apply
       run: ./serverkit-setup.bash
     - name: serverkit check
       run: |
