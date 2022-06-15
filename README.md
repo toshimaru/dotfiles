@@ -1,8 +1,14 @@
 ![Setup](https://github.com/toshimaru/dotfiles/workflows/Setup/badge.svg)
 
-# dotfiles 
+# dotfiles
 
 My dotfiles.
+
+## Prerequisites
+
+- macOS v11 or more
+- Apple M1 / Intel
+- Ruby v2.7
 
 ## Powered By
 
