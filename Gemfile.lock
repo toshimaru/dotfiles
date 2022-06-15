@@ -52,6 +52,7 @@ GEM
     unix-crypt (1.3.0)
 
 PLATFORMS
+  arm64-darwin-21
   x86_64-darwin-21
 
 DEPENDENCIES
@@ -62,4 +63,4 @@ DEPENDENCIES
   serverkit-vscode
 
 BUNDLED WITH
-   2.3.13
+   2.3.7
