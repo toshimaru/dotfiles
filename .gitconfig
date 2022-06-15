@@ -3,11 +3,6 @@
   email = me@toshimaru.net
 [color]
   ui = auto
-[color "diff"]
-  meta = yellow bold
-  frag = magenta bold
-  old = red bold
-  new = green bold
 [alias]
   fetch-pulls = fetch origin +refs/pull/*:refs/remotes/pull/*
   st = status -s -b
