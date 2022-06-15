@@ -77,5 +77,3 @@ alias vgrep='grep -v --color'
 # eval "$(rbenv init -)"
 
 export EDITOR=vim
-# export GOPATH=$HOME
-# PATH=$PATH:$GOPATH/bin
