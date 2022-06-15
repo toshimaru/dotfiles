@@ -48,17 +48,12 @@ resources:
     notify:
       - restart_dock
   - type: defaults
-    domain: com.apple.menuextra.battery
-    key: ShowPercent
-    value: 1
-    notify:
-      - restart_systemuiserver
-  - type: defaults
     domain: com.apple.screensaver
     key: askForPasswordDelay
     value: 0
   - type: defaults
-    key: com.apple.mouse.tapBehavior
+    domain: com.apple.AppleMultitouchTrackpad
+    key: Clicking
     value: 1
 
 handlers:
