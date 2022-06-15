@@ -3,6 +3,7 @@
 brew "git"
 brew "iproute2mac"
 brew "pstree"
+brew "rbenv"
 brew "ripgrep"
 brew "svn"
 brew "tree"
