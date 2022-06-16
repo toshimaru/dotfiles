@@ -27,8 +27,6 @@ function peco-checkout-pull-request() {
     fi
     zle clear-screen
 }
-zle -N peco-checkout-pull-request
-bindkey '^B' peco-checkout-pull-request
 
 function peco-view-pull-request() {
     local selected_pr_id=$(gh pr list | peco | cut -f 1)
