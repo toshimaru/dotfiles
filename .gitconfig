@@ -1,8 +1,18 @@
 [user]
   name = toshimaru
   email = me@toshimaru.net
-[color]
-  ui = auto
+[core]
+  excludesfile = ~/.global_ignore
+  autocrlf = input
+  editor = vim
+[rebase]
+  autosquash = true
+  autostash = true
+  abbreviateCommands = true
+[init]
+  defaultBranch = main
+[ghq]
+  root = ~/src
 [alias]
   fetch-pulls = fetch origin +refs/pull/*:refs/remotes/pull/*
   st = status -s -b
@@ -35,7 +45,6 @@
   spush = svn dcommit
   spull = svn rebase
   sfetch = svn fetch
-  k = !gitk
   pick = cherry-pick
   wip = commit --allow-empty -m '[ci skip] WIP'
   # require peco (https://github.com/peco/peco)
@@ -48,17 +57,10 @@
   ci = ci-status -v
   open = browse
   open-issue = !hub browse -- pull/${1}
-  issues = browse -- issues
-  myissues = issue -a toshimaru
-  prs = browse -- pulls
+  open-issues = browse -- issues
+  open-prs = browse -- pulls
+  list-myissues = issue -a toshimaru
+  list-pr = pr list
   pro = !hub browse -- pull/$(git branch --show-current)
-  prl = pr list
   # require GitHub Desktop App
   app = !github .
-[ghq]
-  root = ~/src
-[rebase]
-  autosquash = true
-  autostash = true
-[core]
-  autocrlf = input
