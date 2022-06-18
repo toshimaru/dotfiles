@@ -55,12 +55,15 @@
   grep-ghopen = "!git grep -n ${1} | peco | awk -F ':' '{print $1}' | sed 's/:/#L/' | xargs -I PATH hub browse -- blob/master/PATH"
   # require hub command (http://hub.github.com/)
   ci = ci-status -v
-  open = browse
-  open-issue = !hub browse -- pull/${1}
+  open-issue = browse -- pull/${1}
   open-issues = browse -- issues
   open-prs = browse -- pulls
-  list-myissues = issue -a toshimaru
-  list-pr = pr list
   pro = !hub browse -- pull/$(git branch --show-current)
-  # require GitHub Desktop App
+  # require gh command (https://cli.github.com/)
+  open = !gh open
+  o = open
+  list-pr = !gh pr list
+  list-issue = !gh issue list
+  list-myissue = gh issue list --assignee @me
+  # require GitHub Desktop App (https://desktop.github.com/)
   app = !github .
