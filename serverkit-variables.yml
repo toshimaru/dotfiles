@@ -61,10 +61,12 @@ homebrew_cask_package_names:
 - typora
 - visual-studio-code
 - wireshark
-# - zoom
 # - amazon-music
+# - choosy
 # - karabiner-elements
+# - krisp
 # - virtualbox
+# - zoom
 
 vscode_package_names:
 - aaron-bond.better-comments

@@ -40,6 +40,8 @@
   today = log --since=midnight --author='toshimaru' --oneline --all
   yesterday = log --since=yesterday.midnight --until=midnight --author='toshimaru' --oneline --all
   ls = ls-files
+  rb = rebase
+  rbi = rebase --interactive
   rc = rebase --continue
   ra = rebase --abort
   spush = svn dcommit
@@ -55,12 +57,14 @@
   grep-ghopen = "!git grep -n ${1} | peco | awk -F ':' '{print $1}' | sed 's/:/#L/' | xargs -I PATH hub browse -- blob/master/PATH"
   # require hub command (http://hub.github.com/)
   ci = ci-status -v
-  open = browse
-  open-issue = !hub browse -- pull/${1}
-  open-issues = browse -- issues
-  open-prs = browse -- pulls
-  list-myissues = issue -a toshimaru
-  list-pr = pr list
-  pro = !hub browse -- pull/$(git branch --show-current)
-  # require GitHub Desktop App
+  # require gh command (https://cli.github.com/)
+  open = !gh browse
+  o = open
+  open-issue = !gh issue list -w
+  open-pr = !gh pr list -w
+  pro = !gh pr view -w || gh pr create -w
+  list-pr = !gh pr list
+  list-issue = !gh issue list
+  list-myissue = !gh issue list --assignee @me
+  # require GitHub Desktop App (https://desktop.github.com/)
   app = !github .
