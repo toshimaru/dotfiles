@@ -7,7 +7,7 @@ if [ "$?" -ne 0 ]; then
 fi
 
 # Use Ruby 2.7.x
-brew bundle
+brew update && brew bundle
 eval "$(rbenv init -)"
 rbenv install 2.7.6 && rbenv local 2.7.6
 
