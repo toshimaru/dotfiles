@@ -25,13 +25,13 @@
   df = diff
   dft = difftool
   showname = show --name-only
-  pushu = push -u
-  poh = push origin HEAD
+  poh = push -u origin HEAD
   ad = add
   co = checkout
   c = commit --verbose
   ca = commit -a --verbose
   f = fetch
+  fp = fetch --prune
   r = remote
   rv = remote -v
   l = log --stat --abbrev-commit
@@ -53,6 +53,7 @@
   lsc = !git ls-files | peco | xargs cat
   lso = !git ls-files | peco | xargs open
   lsv = !git ls-files | peco | xargs -o vim
+  swb = !git branch  --sort=-committerdate | tr -d '* ' | peco | xargs git switch
   grepv = "!f() { git grep ${1} | peco | awk -F ':' '{print $1}' | xargs -o vim; }; f"
   grep-ghopen = "!git grep -n ${1} | peco | awk -F ':' '{print $1}' | sed 's/:/#L/' | xargs -I PATH hub browse -- blob/master/PATH"
   # require hub command (http://hub.github.com/)

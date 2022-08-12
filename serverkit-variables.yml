@@ -31,7 +31,6 @@ homebrew_package_names:
 - zsh
 
 homebrew_cask_package_names:
-- alfred
 - chromedriver
 - dash
 - deckset
@@ -53,6 +52,7 @@ homebrew_cask_package_names:
 - minecraft
 - ngrok
 - opera
+- raycast
 - sequel-ace
 - skitch
 - slack
