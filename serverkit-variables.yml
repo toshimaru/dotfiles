@@ -30,6 +30,7 @@ homebrew_package_names:
 - zsh
 
 homebrew_cask_package_names:
+- brave-browser
 - chromedriver
 - dash
 - deckset
@@ -50,7 +51,6 @@ homebrew_cask_package_names:
 - kindle
 - minecraft
 - ngrok
-- opera
 - raycast
 - sequel-ace
 - skitch
