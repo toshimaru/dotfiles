@@ -27,6 +27,7 @@ homebrew_package_names:
 - vim
 - watch
 - wget
+- yarn
 - zsh
 
 homebrew_cask_package_names:
@@ -42,13 +43,13 @@ homebrew_cask_package_names:
 - firefox
 - github
 - google-chrome
-- google-cloud-sdk
 - google-japanese-ime
 - imageoptim
 - insomnia
 - iterm2
 - jetbrains-toolbox
 - kindle
+- krisp
 - minecraft
 - ngrok
 - raycast
@@ -62,8 +63,8 @@ homebrew_cask_package_names:
 - wireshark
 # - amazon-music
 # - choosy
+# - google-cloud-sdk
 # - karabiner-elements
-# - krisp
 # - virtualbox
 # - zoom
 
