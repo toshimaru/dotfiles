@@ -30,8 +30,8 @@ resources:
     status: updated
   - type: command
     script: |
-      cp /Users/<%= ENV["USER"] %>/src/github.com/toshimaru/dotfiles/.gitconfig \
-         /Users/<%= ENV["USER"] %>/.gitconfig
+      cp -n /Users/<%= ENV["USER"] %>/src/github.com/toshimaru/dotfiles/.gitconfig \
+            /Users/<%= ENV["USER"] %>/.gitconfig
   - type: symlink
     destination: /Users/<%= ENV["USER"] %>/src/github.com/toshimaru/dotfiles/.pryrc
     source: /Users/<%= ENV["USER"] %>/.pryrc
