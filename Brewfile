@@ -16,7 +16,10 @@ cask 'iterm2'
 cask 'sublime-text'
 
 tap 'homebrew/cask-fonts'
-cask 'font-dejavu-sans-mono-for-powerline'
+cask 'font-dejavu'
+cask 'font-fira-code'
+cask 'font-jetbrains-mono'
+cask 'font-roboto-mono'
 
 # Require Mac App Store sign in.
 # mas 'Magnet', id: 441258766
