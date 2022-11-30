@@ -39,5 +39,5 @@ function peco-view-pull-request() {
 zle -N peco-view-pull-request
 bindkey '^G' peco-view-pull-request
 
-# https://starship.rs (font: https://github.com/powerline/fonts)
+# https://starship.rs
 # eval "$(starship init zsh)"
