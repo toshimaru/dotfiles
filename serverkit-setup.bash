@@ -9,7 +9,7 @@ fi
 # TODO: Bump Ruby version
 brew update && brew bundle
 eval "$(rbenv init -)"
-rbenv install 2.7.6 && rbenv local 2.7.6
+rbenv install 2.7.7 && rbenv local 2.7.7
 
 bundle install --path vendor/bundle --jobs 4 --retry 3
 bundle exec serverkit apply serverkit.yml.erb --variables=serverkit-variables.yml
