@@ -2,7 +2,6 @@
   name = toshimaru
   email = me@toshimaru.net
 [core]
-  excludesfile = ~/.global_ignore
   autocrlf = input
   editor = vim
 [rebase]

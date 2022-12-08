@@ -4,6 +4,10 @@
 #     $ git config --global core.excludesfile ~/.global_ignore
 #
 # ref. https://github.com/github/gitignore
+#
+# or
+#
+# Put this file into `~/.config/git/ignore`
 
 
 ### OSX ###
