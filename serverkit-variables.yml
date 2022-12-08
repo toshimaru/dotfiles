@@ -27,10 +27,13 @@ homebrew_package_names:
 - vim
 - watch
 - wget
+- yarn
 - zsh
 
 homebrew_cask_package_names:
+- brave-browser
 - chromedriver
+- cloudflare-warp
 - dash
 - deckset
 - discord
@@ -41,16 +44,15 @@ homebrew_cask_package_names:
 - firefox
 - github
 - google-chrome
-- google-cloud-sdk
 - google-japanese-ime
 - imageoptim
 - insomnia
 - iterm2
 - jetbrains-toolbox
 - kindle
+- krisp
 - minecraft
 - ngrok
-- opera
 - raycast
 - sequel-ace
 - skitch
@@ -62,8 +64,8 @@ homebrew_cask_package_names:
 - wireshark
 # - amazon-music
 # - choosy
+# - google-cloud-sdk
 # - karabiner-elements
-# - krisp
 # - virtualbox
 # - zoom
 
@@ -88,7 +90,6 @@ vscode_package_names:
 - ms-vscode-remote.remote-ssh-edit
 - ms-vscode-remote.remote-wsl
 - ms-vscode-remote.vscode-remote-extensionpack
-- ms-vscode.atom-keybindings
 - ms-vsliveshare.vsliveshare
 - rebornix.ruby
 - robert.ruby-snippet

@@ -47,7 +47,7 @@ function diffspec() {
 
 # aliases
 alias b='bat -p'
-alias c='ccat --bg=dark'
+alias c='nyan'
 alias g='git'
 alias o='open'
 alias p='peco'

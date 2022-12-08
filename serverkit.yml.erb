@@ -15,7 +15,7 @@ resources:
   <%- end -%>
 
   - type: rbenv_ruby
-    version: 3.1.2
+    version: 3.1.3
     global: true
 
   # plug.vim
@@ -30,40 +30,19 @@ resources:
     status: updated
   - type: command
     script: |
-      cp /Users/<%= ENV["USER"] %>/src/github.com/toshimaru/dotfiles/.gitconfig \
-         /Users/<%= ENV["USER"] %>/.gitconfig
+      cp -n /Users/<%= ENV["USER"] %>/src/github.com/toshimaru/dotfiles/.gitconfig \
+            /Users/<%= ENV["USER"] %>/.gitconfig
   - type: symlink
     destination: /Users/<%= ENV["USER"] %>/src/github.com/toshimaru/dotfiles/.pryrc
     source: /Users/<%= ENV["USER"] %>/.pryrc
   - type: symlink
     destination: /Users/<%= ENV["USER"] %>/src/github.com/toshimaru/dotfiles/.vimrc
     source: /Users/<%= ENV["USER"] %>/.vimrc
+  - type: directory
+    path: /Users/<%= ENV["USER"] %>/.config/git/
   - type: symlink
     destination: /Users/<%= ENV["USER"] %>/src/github.com/toshimaru/dotfiles/.global_ignore
-    source: /Users/<%= ENV["USER"] %>/.global_ignore
+    source: /Users/<%= ENV["USER"] %>/.config/git/ignore
   - type: symlink
     destination: /Users/<%= ENV["USER"] %>/src/github.com/toshimaru/dotfiles/.rbenv/default-gems
     source: /Users/<%= ENV["USER"] %>/.rbenv/default-gems
-
-  - type: defaults
-    domain: com.apple.dock
-    key: autohide
-    value: 1
-    notify:
-      - restart_dock
-  - type: defaults
-    domain: com.apple.screensaver
-    key: askForPasswordDelay
-    value: 0
-  - type: defaults
-    domain: com.apple.AppleMultitouchTrackpad
-    key: Clicking
-    value: 1
-
-handlers:
-  - id: restart_dock
-    type: command
-    script: killall Dock
-  - id: restart_systemuiserver
-    type: command
-    script: killall SystemUIServer
