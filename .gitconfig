@@ -57,7 +57,7 @@
   grepv = "!f() { git grep ${1} | peco | awk -F ':' '{print $1}' | xargs -o vim; }; f"
   grep-ghopen = "!git grep -n ${1} | peco | awk -F ':' '{print $1}' | sed 's/:/#L/' | xargs -I PATH hub browse -- blob/master/PATH"
   # require gh command (https://cli.github.com/)
-  ci = !gh pr checks
+  ci = !gh pr checks --watch
   open = !gh browse
   o = open
   open-issue = !gh issue list -w
