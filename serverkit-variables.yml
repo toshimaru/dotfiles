@@ -8,7 +8,6 @@ homebrew_package_names:
 - git
 - go
 - htop
-- hub
 - iproute2mac
 - jq
 - memcached
