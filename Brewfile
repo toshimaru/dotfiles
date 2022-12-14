@@ -1,7 +1,7 @@
 # Run `brew bundle` to install the following packages.
 
 brew 'git'
-# brew 'iproute2mac'
+brew 'iproute2mac'
 brew 'pstree'
 brew 'rbenv'
 brew 'ripgrep'
