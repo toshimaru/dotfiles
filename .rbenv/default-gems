@@ -1,4 +1,5 @@
 # cp .rbenv/default-gems $(rbenv root)/
-bundler
-pry
 bundled_gems
+bundler
+rubocop
+solargraph

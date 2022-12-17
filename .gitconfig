@@ -53,8 +53,8 @@
   lso = !git ls-files | peco | xargs open
   lsv = !git ls-files | peco | xargs -o vim
   swb = !git branch  --sort=-committerdate | tr -d '* ' | peco | xargs git switch
-  grepv = "!f() { git grep ${1} | peco | awk -F ':' '{print $1}' | xargs -o vim; }; f"
-  grep-ghopen = "!git grep -n ${1} | peco | awk -F ':' '{print $1}' | sed 's/:/#L/' | xargs -I PATH hub browse -- blob/master/PATH"
+  grepv = "!git grep ${1} | peco | awk -F ':' '{print $1}' | xargs -o vim && true"
+  grepo = "!git grep -n ${1} | peco | awk -F ':' '{print $1 \":\" $2}' | xargs gh browse && true"
   # require gh command (https://cli.github.com/)
   ci = !gh pr checks --watch
   open = !gh browse

@@ -8,7 +8,6 @@ homebrew_package_names:
 - git
 - go
 - htop
-- hub
 - iproute2mac
 - jq
 - memcached
@@ -75,7 +74,6 @@ vscode_package_names:
 - arcticicestudio.nord-visual-studio-code
 - bierner.emojisense
 - BriteSnow.vscode-toggle-quotes
-- castwide.solargraph
 - christian-kohler.path-intellisense
 - chunsen.bracket-select
 - eamodio.gitlens
@@ -83,7 +81,6 @@ vscode_package_names:
 - GitHub.vscode-pull-request-github
 - golang.go
 - mechatroner.rainbow-csv
-- misogi.ruby-rubocop
 - ms-azuretools.vscode-docker
 - ms-vscode-remote.remote-containers
 - ms-vscode-remote.remote-ssh

@@ -27,6 +27,8 @@ function peco-checkout-pull-request() {
     fi
     zle clear-screen
 }
+zle -N peco-checkout-pull-request
+bindkey '^G' peco-checkout-pull-request
 
 function peco-view-pull-request() {
     local selected_pr_id=$(gh pr list | peco | cut -f 1)
@@ -36,8 +38,6 @@ function peco-view-pull-request() {
     fi
     zle clear-screen
 }
-zle -N peco-view-pull-request
-bindkey '^G' peco-view-pull-request
 
 # https://starship.rs
 # eval "$(starship init zsh)"

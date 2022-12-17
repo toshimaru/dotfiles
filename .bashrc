@@ -70,9 +70,6 @@ alias vgrep='grep -v --color'
 # https://starship.rs
 # eval "$(starship init bash)"
 
-# https://github.com/github/hub
-# eval "$(hub alias -s)"
-
 # https://github.com/rbenv/rbenv
 # eval "$(rbenv init -)"
 
