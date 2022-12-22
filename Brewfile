@@ -1,11 +1,9 @@
 # Run `brew bundle` to install the following packages.
 
 brew 'git'
-brew 'iproute2mac'
 brew 'pstree'
 brew 'rbenv'
 brew 'ripgrep'
-brew 'svn'
 brew 'tree'
 brew 'watch'
 brew 'wget'

@@ -5,11 +5,9 @@ if ! which brew > /dev/null ; then
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 fi
 
-# Use Ruby 2.7.x
-# TODO: Bump Ruby version
 brew update && brew bundle
 eval "$(rbenv init -)"
-rbenv install 2.7.7 && rbenv local 2.7.7
+rbenv install 3.0.5 && rbenv local 3.0.5
 
 bundle install --path vendor/bundle --jobs 4 --retry 3
 bundle exec serverkit apply serverkit.yml.erb --variables=serverkit-variables.yml
