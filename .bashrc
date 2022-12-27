@@ -42,8 +42,10 @@ function s() {
 }
 
 function diffspec() {
-	bundle exec rspec $(git status --short | grep 'spec.rb' | awk '{ print $2 }')
+  bundle exec rspec $(git status --short | grep 'spec.rb' | awk '{ print $2 }')
 }
+
+function touch!() { mkdir -p $(dirname "$1") && touch "$1" }
 
 # aliases
 alias b='bat -p'
