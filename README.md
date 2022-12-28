@@ -8,7 +8,7 @@ My dotfiles.
 
 - macOS v11 or more
 - Apple Silicon Mac / Intel Mac
-- Ruby v2.7
+- Ruby v3.0
 
 ## Powered By
 
