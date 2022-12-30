@@ -1,25 +1,14 @@
 name: Setup
-
 on: [push]
-
 jobs:
-  macOS-11-build:
-    runs-on: macOS-11
+  setup:
+    strategy:
+      matrix:
+        os: [macOS-11, macOS-12]
+    runs-on: ${{ matrix.os }}
     steps:
-    - uses: actions/checkout@v2
-    - name: brew bundle & bundle install & serverkit apply
-      run: ./serverkit-setup.bash
-    - name: serverkit check
-      run: |
-        # just check, ignore exit status
-        bundle exec serverkit check serverkit.yml.erb --variables=serverkit-variables.yml || exit 0
-  macOS-12-build:
-    runs-on: macOS-12
-    steps:
-    - uses: actions/checkout@v2
-    - name: brew bundle & bundle install & serverkit apply
-      run: ./serverkit-setup.bash
-    - name: serverkit check
-      run: |
-        # just check, ignore exit status
-        bundle exec serverkit check serverkit.yml.erb --variables=serverkit-variables.yml || exit 0
+      - uses: actions/checkout@v2
+      - name: brew bundle & bundle install & serverkit apply
+        run: ./serverkit-setup.bash
+      - name: serverkit check
+        run: bundle exec serverkit check serverkit.yml.erb --variables=serverkit-variables.yml
