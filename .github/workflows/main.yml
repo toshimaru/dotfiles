@@ -7,7 +7,7 @@ jobs:
         os: [macOS-11, macOS-12]
     runs-on: ${{ matrix.os }}
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - name: brew bundle & bundle install & serverkit apply
         run: ./serverkit-setup.bash
       - name: serverkit check
