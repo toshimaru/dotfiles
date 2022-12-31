@@ -43,6 +43,7 @@ homebrew_cask_package_names:
 - firefox
 - github
 - google-chrome
+- google-drive
 - google-japanese-ime
 - imageoptim
 - insomnia
