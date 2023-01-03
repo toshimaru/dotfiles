@@ -10,7 +10,7 @@ GEM
       tzinfo (~> 2.0)
     concurrent-ruby (1.1.10)
     hashie (5.0.0)
-    highline (2.0.3)
+    highline (2.1.0)
     i18n (1.12.0)
       concurrent-ruby (~> 1.0)
     minitest (5.17.0)
