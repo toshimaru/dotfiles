@@ -14,6 +14,7 @@ cask 'iterm2'
 cask 'sublime-text'
 
 tap 'homebrew/cask-fonts'
+cask 'font-cica'
 cask 'font-dejavu'
 cask 'font-fira-code'
 cask 'font-jetbrains-mono'
