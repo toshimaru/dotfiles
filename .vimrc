@@ -44,3 +44,6 @@ let mapleader=","
 " Other plugin settings
 map <Leader>t :NERDTreeToggle<CR>
 let g:NERDSpaceDelims = 1
+
+" grep + cwindow
+autocmd QuickFixCmdPost *grep* cwindow
