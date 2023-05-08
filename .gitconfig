@@ -43,9 +43,6 @@
   rbi = rebase --interactive
   rbc = rebase --continue
   rba = rebase --abort
-  spush = svn dcommit
-  spull = svn rebase
-  sfetch = svn fetch
   pick = cherry-pick
   wip = commit --allow-empty -m '[ci skip] WIP'
   # require peco (https://github.com/peco/peco)
