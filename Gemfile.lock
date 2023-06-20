@@ -13,7 +13,7 @@ GEM
     highline (2.1.0)
     i18n (1.13.0)
       concurrent-ruby (~> 1.0)
-    minitest (5.18.0)
+    minitest (5.18.1)
     net-scp (4.0.0)
       net-ssh (>= 2.6.5, < 8.0.0)
     net-ssh (7.1.0)
