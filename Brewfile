@@ -21,6 +21,7 @@ cask 'font-jetbrains-mono'
 cask 'font-roboto-mono'
 
 # Require `mas` and sign in to App Store.
+# mas 'Gapplin', id: 768053424
 # mas 'LINE', id: 539883307
 # mas 'Magnet', id: 441258766
 # mas "ForkLift", id: 412448059
