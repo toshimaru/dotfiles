@@ -32,7 +32,6 @@ homebrew_package_names:
 
 homebrew_cask_package_names:
 - brave-browser
-- chromedriver
 - cloudflare-warp
 - dash
 - deckset
@@ -64,6 +63,7 @@ homebrew_cask_package_names:
 - wireshark
 # - amazon-music
 # - choosy
+# - chromedriver
 # - google-cloud-sdk
 # - karabiner-elements
 # - utm
