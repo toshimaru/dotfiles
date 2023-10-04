@@ -6,6 +6,7 @@ jobs:
       matrix:
         os: [macOS-11, macOS-12, macOS-13]
     runs-on: ${{ matrix.os }}
+    timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
       - name: brew bundle & bundle install & serverkit apply
