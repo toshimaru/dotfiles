@@ -13,3 +13,5 @@ jobs:
         run: ./serverkit-setup.bash
       - name: serverkit check
         run: bundle exec serverkit check serverkit.yml.erb --variables=serverkit-variables.yml
+        # macOS-13 is still beta, so we ignore the failure.
+        continue-on-error: true
