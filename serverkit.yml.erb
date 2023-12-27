@@ -13,27 +13,29 @@ resources:
   - type: vscode_package
     name: <%= vscode_package_name %>
   <%- end -%>
-
   - type: rbenv_ruby
     version: 3.2.2
     global: true
-
   # Install plug.vim
   - type: command
     check_script: test -f ~/.vim/autoload/plug.vim
     script: |
       curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-
   # Create dotfiles from cloned dotfiles repo
   - type: git
     repository: https://github.com/toshimaru/dotfiles.git
     path: /Users/<%= ENV["USER"] %>/src/github.com/toshimaru/dotfiles
     status: updated
-
+  # Setup my dotfiles
   - type: command
     check_script: test -f ~/.gitconfig
     script: |
       cp -n /Users/<%= ENV["USER"] %>/src/github.com/toshimaru/dotfiles/.gitconfig ~/.gitconfig
+  # Use volta to manage node tools
+  - type: command
+    check_script: test -d ~/.volta
+    script: curl https://get.volta.sh | bash
+  # symlinks
   - type: symlink
     destination: /Users/<%= ENV["USER"] %>/src/github.com/toshimaru/dotfiles/.pryrc
     source: /Users/<%= ENV["USER"] %>/.pryrc

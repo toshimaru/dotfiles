@@ -13,7 +13,6 @@ homebrew_package_names:
 - jq
 - memcached
 - mysql
-- node
 - peco
 - pstree
 - rbenv
