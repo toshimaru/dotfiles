@@ -30,14 +30,22 @@ colorscheme material
 set termguicolors
 
 set cursorline
-set number
+set list
 set nobackup
+set number
+set smoothscroll
 
 " Better search
 set hlsearch
 set incsearch
 set ignorecase
 set smartcase
+
+" shorter hard tab width
+set smarttab
+set smartindent
+set tabstop=4	
+set shiftwidth=4
 
 " easier mapleader
 let mapleader=","
