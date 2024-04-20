@@ -71,15 +71,15 @@ homebrew_cask_package_names:
 
 vscode_package_names:
 - aaron-bond.better-comments
-- alefragnani.Bookmarks
+- alefragnani.bookmarks
 - arcticicestudio.nord-visual-studio-code
 - bierner.emojisense
-- BriteSnow.vscode-toggle-quotes
+- britesnow.vscode-toggle-quotes
 - christian-kohler.path-intellisense
 - chunsen.bracket-select
 - eamodio.gitlens
-- Equinusocio.vsc-material-theme
-- GitHub.vscode-pull-request-github
+- equinusocio.vsc-material-theme
+- github.vscode-pull-request-github
 - golang.go
 - mechatroner.rainbow-csv
 - ms-azuretools.vscode-docker
