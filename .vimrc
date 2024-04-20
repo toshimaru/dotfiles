@@ -4,17 +4,18 @@ source $VIMRUNTIME/defaults.vim
 call plug#begin('~/.vim/plugged')
 Plug 'airblade/vim-gitgutter'
 Plug 'fatih/vim-go'
+Plug 'github/copilot.vim'
+Plug 'hashivim/vim-terraform'
 Plug 'itchyny/lightline.vim'
 Plug 'jiangmiao/auto-pairs'
 Plug 'kien/ctrlp.vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'rhysd/vim-gfm-syntax'
 Plug 'preservim/nerdcommenter'
 Plug 'preservim/nerdtree'
+Plug 'rhysd/vim-gfm-syntax'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-sensible'
 Plug 'tpope/vim-surround'
-Plug 'hashivim/vim-terraform'
 " colorscheme
 Plug 'cocopon/iceberg.vim'
 Plug 'crusoexia/vim-monokai'
