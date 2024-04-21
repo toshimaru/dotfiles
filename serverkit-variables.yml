@@ -30,7 +30,11 @@ homebrew_package_names:
 - zsh
 
 homebrew_cask_package_names:
+- arc
+- bartender
 - brave-browser
+- choosy
+- cleanshot
 - cloudflare-warp
 - dash
 - deckset
@@ -48,26 +52,38 @@ homebrew_cask_package_names:
 - insomnia
 - iterm2
 - jetbrains-toolbox
+- keybase
 - kindle
 - krisp
 - minecraft
+- notion
+- notion-calendar
+- pulsar
 - raycast
+- screen-studio
 - sequel-ace
-- skitch
 - slack
 - spotify
 - sublime-text
 - typora
 - visual-studio-code
 - wireshark
+- zed
 # - amazon-music
-# - choosy
 # - chromedriver
 # - google-cloud-sdk
 # - karabiner-elements
 # - utm
 # - virtualbox
 # - zoom
+# Font
+# - font-cica
+# - font-dejavu
+# - font-fira-code
+# - font-inconsolata
+# - font-jetbrains-mono
+# - font-roboto-mono
+# - font-source-code-pro
 
 vscode_package_names:
 - aaron-bond.better-comments
