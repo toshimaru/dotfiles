@@ -4,9 +4,9 @@ jobs:
   setup:
     strategy:
       matrix:
-        os: [macOS-12, macOS-13, macOS-14]
+        os: [macOS-13, macOS-14]
     runs-on: ${{ matrix.os }}
-    timeout-minutes: 60
+    timeout-minutes: 40
     steps:
       - uses: actions/checkout@v4
       - name: brew bundle & bundle install & serverkit apply
