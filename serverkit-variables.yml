@@ -76,14 +76,6 @@ homebrew_cask_package_names:
 # - utm
 # - virtualbox
 # - zoom
-# Font
-# - font-cica
-# - font-dejavu
-# - font-fira-code
-# - font-inconsolata
-# - font-jetbrains-mono
-# - font-roboto-mono
-# - font-source-code-pro
 
 vscode_package_names:
 - aaron-bond.better-comments
