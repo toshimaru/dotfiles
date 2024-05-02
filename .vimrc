@@ -23,7 +23,6 @@ Plug 'kaicataldo/material.vim'
 Plug 'tomasr/molokai'
 Plug 'vim-scripts/Solarized'
 Plug 'w0ng/vim-hybrid'
-Plug 'Rigellute/rigel'
 call plug#end()
 
 colorscheme material
@@ -44,7 +43,7 @@ set smartcase
 " shorter hard tab width
 set smarttab
 set smartindent
-set tabstop=4	
+set tabstop=4
 set shiftwidth=4
 
 " easier mapleader

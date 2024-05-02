@@ -18,7 +18,7 @@ cask 'font-cica'
 cask 'font-dejavu'
 cask 'font-fira-code'
 cask 'font-jetbrains-mono'
-cask 'font-roboto-mono'
+cask 'font-monaspace'
 
 # Require `mas` and sign in to App Store.
 # mas 'Gapplin', id: 768053424

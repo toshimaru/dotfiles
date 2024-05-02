@@ -25,13 +25,14 @@
   dft = difftool
   showname = show --name-only
   poh = push -u origin HEAD
+  pul = pull
   ad = add
   co = checkout
   c = commit --verbose
   ca = commit -a --verbose
   f = fetch
   fp = fetch --prune
-  r = remote
+  r = restore
   rv = remote -v
   l = log --stat --abbrev-commit
   lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
