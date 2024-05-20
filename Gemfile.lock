@@ -22,7 +22,7 @@ GEM
     highline (3.0.1)
     i18n (1.14.5)
       concurrent-ruby (~> 1.0)
-    minitest (5.22.3)
+    minitest (5.23.0)
     mutex_m (0.2.0)
     net-scp (4.0.0)
       net-ssh (>= 2.6.5, < 8.0.0)
