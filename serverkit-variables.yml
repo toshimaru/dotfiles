@@ -67,12 +67,12 @@ homebrew_cask_package_names:
 - sublime-text
 - typora
 - visual-studio-code
+- vox
 - wireshark
 - zed
 # - amazon-music
 # - chromedriver
 # - google-cloud-sdk
-# - karabiner-elements
 # - utm
 # - virtualbox
 # - zoom
