@@ -1,0 +1,1 @@
+set main-view = date:relative-compact id commit-title:graph=yes,refs=yes
