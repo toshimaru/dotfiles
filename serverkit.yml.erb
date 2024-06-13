@@ -14,7 +14,7 @@ resources:
     name: <%= vscode_package_name %>
   <%- end -%>
   - type: rbenv_ruby
-    version: 3.3.1
+    version: 3.3.3
     global: true
   # Install plug.vim
   - type: command
@@ -42,6 +42,9 @@ resources:
   - type: symlink
     destination: /Users/<%= ENV["USER"] %>/src/github.com/toshimaru/dotfiles/.vimrc
     source: /Users/<%= ENV["USER"] %>/.vimrc
+  - type: symlink
+    destination: /Users/<%= ENV["USER"] %>/src/github.com/toshimaru/dotfiles/.tigrc
+    source: /Users/<%= ENV["USER"] %>/.tigrc
   - type: directory
     path: /Users/<%= ENV["USER"] %>/.config/git/
   - type: symlink
