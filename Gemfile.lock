@@ -20,7 +20,7 @@ GEM
     connection_pool (2.4.1)
     drb (2.2.1)
     hashie (5.0.0)
-    highline (3.1.0)
+    highline (3.1.1)
       reline
     i18n (1.14.6)
       concurrent-ruby (~> 1.0)
@@ -33,7 +33,7 @@ GEM
     net-telnet (0.2.0)
     plist (3.7.1)
     rainbow (3.1.1)
-    reline (0.5.9)
+    reline (0.5.10)
       io-console (~> 0.5)
     securerandom (0.3.1)
     serverkit (0.9.0)
