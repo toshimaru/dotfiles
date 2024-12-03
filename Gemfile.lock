@@ -28,7 +28,7 @@ GEM
     i18n (1.14.6)
       concurrent-ruby (~> 1.0)
     io-console (0.7.2)
-    logger (1.6.1)
+    logger (1.6.2)
     minitest (5.25.2)
     net-scp (4.0.0)
       net-ssh (>= 2.6.5, < 8.0.0)
