@@ -33,6 +33,7 @@ set list
 set nobackup
 set number
 set smoothscroll
+set confirm
 
 " Better search
 set hlsearch
