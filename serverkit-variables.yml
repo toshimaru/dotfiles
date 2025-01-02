@@ -1,115 +1,113 @@
 homebrew_package_names:
-- bash
-- bat
-- cloudflared
-- deno
-- fzf
-- gh
-- ghq
-- git
-- go
-- htop
-- iproute2mac
-- jq
-- memcached
-- mysql
-- peco
-- pstree
-- rbenv
-- rbenv-default-gems
-- redis
-- ripgrep
-- starship
-- tig
-- toshimaru/nyan/nyan
-- tree
-- vim
-- watch
-- wget
-- yarn
-- zsh
+  - bash
+  - bat
+  - cloudflared
+  - deno
+  - fzf
+  - gh
+  - ghq
+  - git
+  - go
+  - htop
+  - iproute2mac
+  - jq
+  - memcached
+  - mysql
+  - peco
+  - pstree
+  - rbenv
+  - rbenv-default-gems
+  - redis
+  - ripgrep
+  - starship
+  - tig
+  - toshimaru/nyan/nyan
+  - tree
+  - vim
+  - watch
+  - wget
+  - yarn
+  - zsh
 
 homebrew_cask_package_names:
-- arc
-- bartender
-- brave-browser
-- choosy
-- cleanshot
-- cloudflare-warp
-- dash
-- deckset
-- discord
-- docker
-- dropbox
-- enpass
-- evernote
-- firefox
-- github
-- google-chrome
-- google-drive
-- google-japanese-ime
-- imageoptim
-- insomnia
-- iterm2
-- jetbrains-toolbox
-- keybase
-- kindle
-- krisp
-- minecraft
-- notion
-- notion-calendar
-- pulsar
-- raycast
-- screen-studio
-- sequel-ace
-- slack
-- spotify
-- sublime-text
-- typora
-- visual-studio-code
-- vox
-- wireshark
-- zed
-# - amazon-music
-# - chromedriver
-# - google-cloud-sdk
-# - utm
-# - virtualbox
-# - zoom
+  - arc
+  - bartender
+  - brave-browser
+  - choosy
+  - cleanshot
+  - cloudflare-warp
+  - dash
+  - deckset
+  - discord
+  - docker
+  - dropbox
+  - enpass
+  - evernote
+  - firefox
+  - github
+  - google-chrome
+  - google-drive
+  - google-japanese-ime
+  - imageoptim
+  - insomnia
+  - iterm2
+  - jetbrains-toolbox
+  - keybase
+  - krisp
+  - minecraft
+  - notion
+  - notion-calendar
+  - pulsar
+  - raycast
+  - screen-studio
+  - sequel-ace
+  - slack
+  - spotify
+  - sublime-text
+  - typora
+  - visual-studio-code
+  - vox
+  - wireshark
+  - zed
+  # - chromedriver
+  # - google-cloud-sdk
+  # - utm
+  # - virtualbox
+  # - zoom
 
 vscode_package_names:
-- aaron-bond.better-comments
-- alefragnani.bookmarks
-- arcticicestudio.nord-visual-studio-code
-- bierner.emojisense
-- britesnow.vscode-toggle-quotes
-- christian-kohler.path-intellisense
-- chunsen.bracket-select
-- eamodio.gitlens
-- equinusocio.vsc-material-theme
-- github.codespaces
-- github.copilot
-- github.copilot-chat
-- github.vscode-github-actions
-- github.vscode-pull-request-github
-- golang.go
-- mechatroner.rainbow-csv
-- ms-azuretools.vscode-docker
-- ms-vscode-remote.remote-containers
-- ms-vscode-remote.remote-ssh
-- ms-vscode-remote.remote-ssh-edit
-- ms-vscode-remote.remote-wsl
-- ms-vscode-remote.vscode-remote-extensionpack
-- ms-vscode.vscode-speech
-- ms-vsliveshare.vsliveshare
-- robert.ruby-snippet
-- shopify.ruby-lsp
-- sensourceinc.vscode-sql-beautify
-- sporto.rails-go-to-spec
-- syler.sass-indented
-- tamasfe.even-better-toml
-- toshimaru.hybrid-next-plus
-- vsls-contrib.gistfs
-- wraith13.open-in-github-desktop
-- yzhang.markdown-all-in-one
-- ziyasal.vscode-open-in-github
+  - aaron-bond.better-comments
+  - alefragnani.bookmarks
+  - arcticicestudio.nord-visual-studio-code
+  - bierner.emojisense
+  - britesnow.vscode-toggle-quotes
+  - christian-kohler.path-intellisense
+  - chunsen.bracket-select
+  - eamodio.gitlens
+  - equinusocio.vsc-material-theme
+  - github.codespaces
+  - github.copilot
+  - github.copilot-chat
+  - github.vscode-github-actions
+  - github.vscode-pull-request-github
+  - golang.go
+  - mechatroner.rainbow-csv
+  - ms-azuretools.vscode-docker
+  - ms-vscode-remote.remote-containers
+  - ms-vscode-remote.remote-ssh
+  - ms-vscode-remote.remote-ssh-edit
+  - ms-vscode-remote.remote-wsl
+  - ms-vscode-remote.vscode-remote-extensionpack
+  - ms-vscode.vscode-speech
+  - ms-vsliveshare.vsliveshare
+  - robert.ruby-snippet
+  - shopify.ruby-lsp
+  - sensourceinc.vscode-sql-beautify
+  - sporto.rails-go-to-spec
+  - syler.sass-indented
+  - tamasfe.even-better-toml
+  - toshimaru.hybrid-next-plus
+  - vsls-contrib.gistfs
+  - wraith13.open-in-github-desktop
+  - yzhang.markdown-all-in-one
+  - ziyasal.vscode-open-in-github
