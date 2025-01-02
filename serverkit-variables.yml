@@ -30,52 +30,50 @@ homebrew_package_names:
 - zsh
 
 homebrew_cask_package_names:
-- arc
-- bartender
-- brave-browser
-- choosy
-- cleanshot
-- cloudflare-warp
-- dash
-- deckset
-- discord
-- docker
-- dropbox
-- enpass
-- evernote
-- firefox
-- github
-- google-chrome
-- google-drive
-- google-japanese-ime
-- imageoptim
-- insomnia
-- iterm2
-- jetbrains-toolbox
-- keybase
-- kindle
-- krisp
-- minecraft
-- notion
-- notion-calendar
-- pulsar
-- raycast
-- screen-studio
-- sequel-ace
-- slack
-- spotify
-- sublime-text
-- typora
-- visual-studio-code
-- vox
-- wireshark
-- zed
-# - amazon-music
-# - chromedriver
-# - google-cloud-sdk
-# - utm
-# - virtualbox
-# - zoom
+  - arc
+  - bartender
+  - brave-browser
+  - choosy
+  - cleanshot
+  - cloudflare-warp
+  - dash
+  - deckset
+  - discord
+  - docker
+  - dropbox
+  - enpass
+  - evernote
+  - firefox
+  - github
+  - google-chrome
+  - google-drive
+  - google-japanese-ime
+  - imageoptim
+  - insomnia
+  - iterm2
+  - jetbrains-toolbox
+  - keybase
+  - krisp
+  - minecraft
+  - notion
+  - notion-calendar
+  - pulsar
+  - raycast
+  - screen-studio
+  - sequel-ace
+  - slack
+  - spotify
+  - sublime-text
+  - typora
+  - visual-studio-code
+  - vox
+  - wireshark
+  - zed
+  # - chromedriver
+  # - google-cloud-sdk
+  # - utm
+  # - virtualbox
+  # - zoom
 
 vscode_package_names:
 - aaron-bond.better-comments
