@@ -25,7 +25,7 @@ GEM
     hashie (5.0.0)
     highline (3.1.2)
       reline
-    i18n (1.14.6)
+    i18n (1.14.7)
       concurrent-ruby (~> 1.0)
     io-console (0.8.0)
     logger (1.6.4)
