@@ -42,7 +42,6 @@ homebrew_cask_package_names:
   - docker
   - dropbox
   - enpass
-  - evernote
   - firefox
   - github
   - google-chrome
@@ -70,6 +69,7 @@ homebrew_cask_package_names:
   - wireshark
   - zed
   # - chromedriver
+  # - evernote
   # - google-cloud-sdk
   # - utm
   # - virtualbox
