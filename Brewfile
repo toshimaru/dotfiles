@@ -15,6 +15,7 @@ cask 'font-dejavu'
 cask 'font-fira-code'
 cask 'font-jetbrains-mono'
 cask 'font-monaspace'
+cask 'font-moralerspace'
 cask 'iterm2'
 cask 'sublime-text'
 
