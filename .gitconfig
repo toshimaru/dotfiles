@@ -59,6 +59,7 @@
   o = open
   open-issue = !gh issue list -w
   open-pr = !gh pr list -w
+  pr = !gh pr checkout
   pro = !gh pr view -w || gh pr create -w
   list-pr = !gh pr list
   list-issue = !gh issue list
