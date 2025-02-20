@@ -19,25 +19,5 @@ function peco-history-selection() {
 zle -N peco-history-selection
 bindkey '^V' peco-history-selection
 
-function peco-checkout-pull-request() {
-    local selected_pr_id=$(gh pr list | peco | cut -f 1)
-    if [ -n "$selected_pr_id" ]; then
-        BUFFER="gh pr checkout ${selected_pr_id}"
-        zle accept-line
-    fi
-    zle clear-screen
-}
-zle -N peco-checkout-pull-request
-bindkey '^G' peco-checkout-pull-request
-
-function peco-view-pull-request() {
-    local selected_pr_id=$(gh pr list | peco | cut -f 1)
-    if [ -n "$selected_pr_id" ]; then
-        BUFFER="gh pr view ${selected_pr_id}"
-        zle accept-line
-    fi
-    zle clear-screen
-}
-
 # https://starship.rs
 # eval "$(starship init zsh)"
