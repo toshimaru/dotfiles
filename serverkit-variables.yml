@@ -79,11 +79,9 @@ vscode_package_names:
   - aaron-bond.better-comments
   - alefragnani.bookmarks
   - arcticicestudio.nord-visual-studio-code
-  - bierner.emojisense
   - britesnow.vscode-toggle-quotes
   - christian-kohler.path-intellisense
   - chunsen.bracket-select
-  - eamodio.gitlens
   - equinusocio.vsc-material-theme
   - github.codespaces
   - github.copilot
@@ -98,11 +96,11 @@ vscode_package_names:
   - ms-vscode-remote.remote-ssh-edit
   - ms-vscode-remote.remote-wsl
   - ms-vscode-remote.vscode-remote-extensionpack
+  - ms-vscode.remote-explorer
+  - ms-vscode.remote-server
   - ms-vscode.vscode-speech
   - ms-vsliveshare.vsliveshare
-  - robert.ruby-snippet
   - shopify.ruby-lsp
-  - sensourceinc.vscode-sql-beautify
   - sporto.rails-go-to-spec
   - syler.sass-indented
   - tamasfe.even-better-toml
@@ -111,3 +109,5 @@ vscode_package_names:
   - wraith13.open-in-github-desktop
   - yzhang.markdown-all-in-one
   - ziyasal.vscode-open-in-github
+  # - robert.ruby-snippet
+  # - sensourceinc.vscode-sql-beautify
