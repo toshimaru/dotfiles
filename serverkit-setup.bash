@@ -1,4 +1,4 @@
-#!/bin/bash -eu
+#!/bin/bash -eux
 
 # Install homebrew if it's not installed
 if ! which brew > /dev/null ; then
