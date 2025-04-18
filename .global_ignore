@@ -213,3 +213,6 @@ build-iPhoneSimulator/
 /.bundle/
 /vendor/bundle
 /lib/bundler/man/
+
+mise.toml
+.zed
