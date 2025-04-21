@@ -1,3 +1,9 @@
+PATH
+  remote: ../../serverkit/serverkit-mise
+  specs:
+    serverkit-mise (0.1.0)
+      serverkit
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -79,6 +85,7 @@ PLATFORMS
 DEPENDENCIES
   serverkit
   serverkit-homebrew
+  serverkit-mise!
   serverkit-rbenv
   serverkit-vscode
 
