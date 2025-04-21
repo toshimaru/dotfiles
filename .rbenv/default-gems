@@ -1,5 +1,8 @@
 # cp .rbenv/default-gems $(rbenv root)/
 bundled_gems
 bundler
+rails
 rubocop
+ruby-lsp
 solargraph
+standard
