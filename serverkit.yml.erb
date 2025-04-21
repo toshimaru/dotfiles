@@ -37,9 +37,6 @@ resources:
     script: curl https://get.volta.sh | bash
   # symlinks
   - type: symlink
-    destination: /Users/<%= ENV["USER"] %>/src/github.com/toshimaru/dotfiles/.pryrc
-    source: /Users/<%= ENV["USER"] %>/.pryrc
-  - type: symlink
     destination: /Users/<%= ENV["USER"] %>/src/github.com/toshimaru/dotfiles/.vimrc
     source: /Users/<%= ENV["USER"] %>/.vimrc
   - type: symlink
