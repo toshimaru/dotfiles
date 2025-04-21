@@ -4,7 +4,7 @@ jobs:
   setup:
     strategy:
       matrix:
-        os: [macOS-13, macOS-14]
+        os: [macOS-14, macOS-15]
     runs-on: ${{ matrix.os }}
     timeout-minutes: 40
     steps:
