@@ -14,7 +14,7 @@ resources:
     name: <%= vscode_package_name %>
   <%- end -%>
   - type: rbenv_ruby
-    version: 3.4.1
+    version: 3.4.3
     global: true
   # Install plug.vim
   - type: command
@@ -25,7 +25,6 @@ resources:
   - type: git
     repository: https://github.com/toshimaru/dotfiles.git
     path: /Users/<%= ENV["USER"] %>/src/github.com/toshimaru/dotfiles
-    status: updated
   # Setup my dotfiles
   - type: command
     check_script: test -f ~/.gitconfig
@@ -36,9 +35,6 @@ resources:
     check_script: test -d ~/.volta
     script: curl https://get.volta.sh | bash
   # symlinks
-  - type: symlink
-    destination: /Users/<%= ENV["USER"] %>/src/github.com/toshimaru/dotfiles/.pryrc
-    source: /Users/<%= ENV["USER"] %>/.pryrc
   - type: symlink
     destination: /Users/<%= ENV["USER"] %>/src/github.com/toshimaru/dotfiles/.vimrc
     source: /Users/<%= ENV["USER"] %>/.vimrc
