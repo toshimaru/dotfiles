@@ -70,7 +70,4 @@ alias vgrep='grep -v --color'
 # https://starship.rs
 # eval "$(starship init bash)"
 
-# https://github.com/rbenv/rbenv
-# eval "$(rbenv init -)"
-
 export EDITOR=vim

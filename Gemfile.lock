@@ -52,9 +52,6 @@ GEM
       serverkit
     serverkit-mise (0.0.1)
       serverkit
-    serverkit-rbenv (0.3.3)
-      serverkit (>= 0.6.2)
-      specinfra (>= 2.31.1)
     serverkit-vscode (0.1.1)
       serverkit
     sfl (2.3)
@@ -78,7 +75,6 @@ DEPENDENCIES
   serverkit
   serverkit-homebrew
   serverkit-mise
-  serverkit-rbenv
   serverkit-vscode
 
 BUNDLED WITH

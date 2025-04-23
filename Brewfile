@@ -3,7 +3,6 @@
 brew 'git'
 brew 'mise'
 brew 'pstree'
-brew 'rbenv'
 brew 'ripgrep'
 brew 'tree'
 brew 'watch'

@@ -15,8 +15,6 @@ homebrew_package_names:
   - mysql
   - peco
   - pstree
-  - rbenv
-  - rbenv-default-gems
   - redis
   - ripgrep
   - starship
