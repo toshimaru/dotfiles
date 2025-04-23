@@ -31,10 +31,6 @@ resources:
     check_script: test -f ~/.gitconfig
     script: |
       cp -n /Users/<%= ENV["USER"] %>/src/github.com/toshimaru/dotfiles/.gitconfig ~/.gitconfig
-  # Use volta to manage node tools
-  - type: command
-    check_script: test -d ~/.volta
-    script: curl https://get.volta.sh | bash
   # symlinks
   - type: symlink
     destination: /Users/<%= ENV["USER"] %>/src/github.com/toshimaru/dotfiles/.vimrc
