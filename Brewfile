@@ -1,6 +1,7 @@
 # Run `brew bundle` to install the following packages.
 
 brew 'git'
+brew 'mise'
 brew 'pstree'
 brew 'rbenv'
 brew 'ripgrep'
