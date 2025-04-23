@@ -35,9 +35,17 @@ resources:
 
   # Developming now
   - type: mise_install
+    name: go
+  - type: mise_install
     name: ruby
-    version: 3.4.1
-  #- type: mise_use
-  #  language: ruby@3.4.0
-
-
+    version: 3.4.3
+  - type: mise_use
+    name: go
+    # version: '1.23'
+  - type: mise_use
+    name: ruby
+    # global: true
+  - type: mise_use
+    # global: false
+    name: ruby
+    version: '3.3'
