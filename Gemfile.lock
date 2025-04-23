@@ -69,12 +69,8 @@ GEM
     uri (1.0.3)
 
 PLATFORMS
-  arm64-darwin-21
-  arm64-darwin-22
-  arm64-darwin-23
   arm64-darwin-24
-  x86_64-darwin-21
-  x86_64-linux
+  ruby
 
 DEPENDENCIES
   serverkit
@@ -83,4 +79,4 @@ DEPENDENCIES
   serverkit-vscode
 
 BUNDLED WITH
-   2.3.26
+   2.6.2
