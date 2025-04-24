@@ -50,9 +50,8 @@ GEM
       unix-crypt
     serverkit-homebrew (0.0.6)
       serverkit
-    serverkit-rbenv (0.3.3)
-      serverkit (>= 0.6.2)
-      specinfra (>= 2.31.1)
+    serverkit-mise (0.0.1)
+      serverkit
     serverkit-vscode (0.1.1)
       serverkit
     sfl (2.3)
@@ -69,18 +68,14 @@ GEM
     uri (1.0.3)
 
 PLATFORMS
-  arm64-darwin-21
-  arm64-darwin-22
-  arm64-darwin-23
   arm64-darwin-24
-  x86_64-darwin-21
-  x86_64-linux
+  ruby
 
 DEPENDENCIES
   serverkit
   serverkit-homebrew
-  serverkit-rbenv
+  serverkit-mise
   serverkit-vscode
 
 BUNDLED WITH
-   2.3.26
+   2.6.2
