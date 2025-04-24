@@ -7,7 +7,10 @@ plugins=(
     gem
     gh
     git
+    mise
+    npm
     rails
+    rake
     z
     zsh-syntax-highlighting # https://github.com/zsh-users/zsh-syntax-highlighting
 )
