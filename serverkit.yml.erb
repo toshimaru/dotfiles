@@ -27,6 +27,11 @@ resources:
     check_script: test -f ~/.gitconfig
     script: |
       cp -n /Users/<%= ENV["USER"] %>/src/github.com/toshimaru/dotfiles/.gitconfig ~/.gitconfig
+  # Install oh-my-zsh
+  - type: command
+    check_script: test -d ~/.oh-my-zsh
+    script: |
+      sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
   # symlinks
   - type: symlink
     destination: /Users/<%= ENV["USER"] %>/src/github.com/toshimaru/dotfiles/.vimrc
