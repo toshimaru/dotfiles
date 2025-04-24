@@ -25,3 +25,5 @@ cask 'sublime-text'
 # mas 'Magnet', id: 441258766
 # mas "ForkLift", id: 412448059
 # mas "Pixelmator Pro", id: 1289583905
+# mas "Perplexity", id: 6714467650
+# mas "Kindle", id: 302584613
