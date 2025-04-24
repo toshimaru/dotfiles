@@ -13,10 +13,6 @@ resources:
   - type: vscode_package
     name: <%= vscode_package_name %>
   <%- end -%>
-  - type: mise_use
-    name: ruby
-  - type: mise_use
-    name: go
   # Install plug.vim
   - type: command
     check_script: test -f ~/.vim/autoload/plug.vim
@@ -46,3 +42,8 @@ resources:
   - type: symlink
     destination: /Users/<%= ENV["USER"] %>/src/github.com/toshimaru/dotfiles/.rbenv/default-gems
     source: /Users/<%= ENV["USER"] %>/.default-gems
+  # Install tools via mise
+  - type: mise_use
+    name: ruby
+  - type: mise_use
+    name: go
