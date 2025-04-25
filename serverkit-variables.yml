@@ -7,19 +7,26 @@ homebrew_package_names:
   - gh
   - ghq
   - git
+  - git-delta
   - go
   - htop
   - iproute2mac
   - jq
+  - killport
   - memcached
+  - mas
+  - mise
   - mysql
   - peco
   - pstree
   - redis
   - ripgrep
+  - sqlite
   - starship
   - tig
   - toshimaru/nyan/nyan
+  - toshimaru/torch/torch-cmd
+  - tre-command
   - tree
   - vim
   - watch
@@ -32,15 +39,18 @@ homebrew_cask_package_names:
   - bartender
   - brave-browser
   - choosy
+  - claude
   - cleanshot
   - cloudflare-warp
   - dash
   - deckset
+  - devtoys
   - discord
   - docker
   - dropbox
   - enpass
   - firefox
+  - ghostty
   - github
   - google-chrome
   - google-drive
@@ -63,14 +73,14 @@ homebrew_cask_package_names:
   - sublime-text
   - typora
   - visual-studio-code
-  - vox
   - wireshark
   - zed
   # - chromedriver
-  # - evernote
   # - google-cloud-sdk
+  # - grishka/grishka/neardrop # Add `--no-quarantine` option
+  # - logi-options+ # require password
   # - utm
-  # - virtualbox
+  # - vox
   # - zoom
 
 vscode_package_names:
