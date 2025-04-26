@@ -50,13 +50,13 @@ GEM
       unix-crypt
     serverkit-homebrew (0.0.6)
       serverkit
-    serverkit-mise (0.0.1)
+    serverkit-mise (0.1.0)
       serverkit
     serverkit-vscode (0.1.1)
       serverkit
     sfl (2.3)
     slop (3.6.0)
-    specinfra (2.93.0)
+    specinfra (2.94.0)
       base64
       net-scp
       net-ssh (>= 2.7)
