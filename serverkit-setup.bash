@@ -8,5 +8,8 @@ fi
 eval "$(/opt/homebrew/bin/brew shellenv)"
 brew update && brew bundle
 
+# Use the latest Ruby version and run serverkit
+mise use --global ruby
+eval "$(mise activate bash)"
 bundle install --path vendor/bundle --jobs 4 --retry 3
 bundle exec serverkit apply serverkit.yml.erb --variables=variables.yml
