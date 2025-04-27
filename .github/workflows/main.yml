@@ -12,4 +12,4 @@ jobs:
       - name: brew bundle & bundle install & serverkit apply
         run: ./serverkit-setup.bash
       - name: serverkit check
-        run: bundle exec serverkit check serverkit.yml.erb --variables=variables.yml
+        run: bundle install && bundle exec serverkit check serverkit.yml.erb --variables=variables.yml
