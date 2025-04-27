@@ -91,6 +91,8 @@ vscode_package_names:
   - britesnow.vscode-toggle-quotes
   - christian-kohler.path-intellisense
   - chunsen.bracket-select
+  - denoland.vscode-deno
+  - docker.docker
   - equinusocio.vsc-material-theme
   - github.codespaces
   - github.copilot
