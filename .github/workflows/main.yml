@@ -6,10 +6,10 @@ jobs:
       matrix:
         os: [macOS-14, macOS-15]
     runs-on: ${{ matrix.os }}
-    timeout-minutes: 40
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
       - name: brew bundle & bundle install & serverkit apply
         run: ./serverkit-setup.bash
       - name: serverkit check
-        run: bundle exec serverkit check serverkit.yml.erb --variables=serverkit-variables.yml
+        run: bundle exec serverkit check serverkit.yml.erb --variables=variables.yml

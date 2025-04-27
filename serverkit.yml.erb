@@ -45,10 +45,12 @@ resources:
     destination: /Users/<%= ENV["USER"] %>/src/github.com/toshimaru/dotfiles/.global_ignore
     source: /Users/<%= ENV["USER"] %>/.config/git/ignore
   - type: symlink
-    destination: /Users/<%= ENV["USER"] %>/src/github.com/toshimaru/dotfiles/.rbenv/default-gems
+    destination: /Users/<%= ENV["USER"] %>/src/github.com/toshimaru/dotfiles/.default-gems
     source: /Users/<%= ENV["USER"] %>/.default-gems
   # Install tools via mise
   - type: mise_use
     name: ruby
   - type: mise_use
     name: go
+  - type: mise_use
+    name: node
