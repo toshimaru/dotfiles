@@ -18,9 +18,3 @@ function peco-history-selection() {
 }
 zle -N peco-history-selection
 bindkey '^V' peco-history-selection
-
-# https://starship.rs
-# eval "$(starship init zsh)"
-
-# https://mise.jdx.dev/getting-started.html
-# eval "$(mise activate zsh)"

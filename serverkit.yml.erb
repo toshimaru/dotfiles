@@ -47,6 +47,9 @@ resources:
   - type: symlink
     destination: /Users/<%= ENV["USER"] %>/src/github.com/toshimaru/dotfiles/.default-gems
     source: /Users/<%= ENV["USER"] %>/.default-gems
+  - type: symlink
+    destination: /Users/<%= ENV["USER"] %>/src/github.com/toshimaru/dotfiles/.zprofile
+    source: /Users/<%= ENV["USER"] %>/.zprofile
   # Install tools via mise
   - type: mise_use
     name: ruby
