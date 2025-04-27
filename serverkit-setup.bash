@@ -5,6 +5,7 @@ if ! which brew > /dev/null ; then
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 fi
 # Install basic tools from Brewfile
+eval "$(/opt/homebrew/bin/brew shellenv)"
 brew update && brew bundle
 
 bundle install --path vendor/bundle --jobs 4 --retry 3
