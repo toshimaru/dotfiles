@@ -36,9 +36,9 @@ homebrew_package_names:
   - zsh
 
 homebrew_cask_package_names:
-  - arc
   - bartender
   - brave-browser
+  - chatgpt
   - choosy
   - claude
   - cleanshot

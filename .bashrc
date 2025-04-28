@@ -52,6 +52,7 @@ alias g='git'
 alias o='open'
 alias p='peco'
 alias tailf='tail -f'
+alias v='vim'
 # ls
 alias l='la'
 alias la='ls -lA'

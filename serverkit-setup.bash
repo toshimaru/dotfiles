@@ -12,4 +12,9 @@ brew update && brew bundle
 mise use --global ruby
 eval "$(mise activate bash)"
 bundle install --path vendor/bundle --jobs 4 --retry 3
+
+# Install rosetta to fix "This package requires Rosetta 2 to be installed."
+if ! pgrep -q oahd; then
+  sudo softwareupdate --install-rosetta --agree-to-license
+fi
 bundle exec serverkit apply serverkit.yml.erb --variables=variables.yml
