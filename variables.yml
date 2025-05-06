@@ -74,7 +74,6 @@ homebrew_cask_package_names:
   - typora
   - visual-studio-code
   - wireshark
-  - windowkeys
   - zed
   # - chromedriver
   # - google-cloud-sdk
@@ -82,6 +81,7 @@ homebrew_cask_package_names:
   # - logi-options+
   # - utm
   # - vox
+  # - windowkeys
   # - zoom
 
 vscode_package_names:
