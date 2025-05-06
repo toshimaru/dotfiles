@@ -4,8 +4,6 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
-    reviewers:
-      - toshimaru
     allow:
       # Allow both direct and indirect updates for all packages
       - dependency-type: "all"
@@ -13,5 +11,3 @@ updates:
     directory: "/"
     schedule:
       interval: weekly
-    reviewers:
-      - toshimaru
