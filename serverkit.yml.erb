@@ -1,4 +1,14 @@
 resources:
+  # Create dotfiles from cloned dotfiles repo
+  - type: git
+    repository: https://github.com/toshimaru/dotfiles.git
+    path: /Users/<%= ENV["USER"] %>/src/github.com/toshimaru/dotfiles
+  # Create .zprofile to enable brew command
+  - type: command
+    check_script: test -f ~/.zprofile
+    script: |
+      cp -n /Users/<%= ENV["USER"] %>/src/github.com/toshimaru/dotfiles/.zprofile ~/.zprofile
+
   <%- homebrew_package_names.each do |homebrew_package_name| -%>
   - type: homebrew_package
     name: <%= homebrew_package_name %>
@@ -13,15 +23,12 @@ resources:
   - type: vscode_package
     name: <%= vscode_package_name %>
   <%- end -%>
+
   # Install plug.vim
   - type: command
     check_script: test -f ~/.vim/autoload/plug.vim
     script: |
       curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-  # Create dotfiles from cloned dotfiles repo
-  - type: git
-    repository: https://github.com/toshimaru/dotfiles.git
-    path: /Users/<%= ENV["USER"] %>/src/github.com/toshimaru/dotfiles
   # Setup my dotfiles
   - type: command
     check_script: test -f ~/.gitconfig
@@ -47,9 +54,6 @@ resources:
   - type: symlink
     destination: /Users/<%= ENV["USER"] %>/src/github.com/toshimaru/dotfiles/.default-gems
     source: /Users/<%= ENV["USER"] %>/.default-gems
-  - type: symlink
-    destination: /Users/<%= ENV["USER"] %>/src/github.com/toshimaru/dotfiles/.zprofile
-    source: /Users/<%= ENV["USER"] %>/.zprofile
   # Install tools via mise
   - type: mise_use
     name: ruby
