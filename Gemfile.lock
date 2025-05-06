@@ -52,7 +52,7 @@ GEM
       serverkit
     serverkit-mise (0.2.1)
       serverkit (>= 1.0.0)
-    serverkit-vscode (0.1.1)
+    serverkit-vscode (0.2.0)
       serverkit
     sfl (2.3)
     slop (3.6.0)
