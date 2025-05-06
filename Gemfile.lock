@@ -50,7 +50,7 @@ GEM
       unix-crypt
     serverkit-homebrew (0.0.6)
       serverkit
-    serverkit-mise (0.2.1)
+    serverkit-mise (0.3.0)
       serverkit (>= 1.0.0)
     serverkit-vscode (0.2.0)
       serverkit
