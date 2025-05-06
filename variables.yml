@@ -74,11 +74,12 @@ homebrew_cask_package_names:
   - typora
   - visual-studio-code
   - wireshark
+  - windowkeys
   - zed
   # - chromedriver
   # - google-cloud-sdk
   # - grishka/grishka/neardrop # Add `--no-quarantine` option
-  # - logi-options+ # require password
+  # - logi-options+
   # - utm
   # - vox
   # - zoom
