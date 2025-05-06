@@ -18,6 +18,3 @@ function peco-history-selection() {
 }
 zle -N peco-history-selection
 bindkey '^V' peco-history-selection
-
-# Load starship after initializing oh-my-zsh
-# eval "$(starship init zsh)"
