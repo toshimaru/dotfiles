@@ -78,9 +78,10 @@ homebrew_cask_package_names:
   # - chromedriver
   # - google-cloud-sdk
   # - grishka/grishka/neardrop # Add `--no-quarantine` option
-  # - logi-options+ # require password
+  # - logi-options+
   # - utm
   # - vox
+  # - windowkeys
   # - zoom
 
 vscode_package_names:
