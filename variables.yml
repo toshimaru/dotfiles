@@ -122,3 +122,9 @@ vscode_package_names:
   - ziyasal.vscode-open-in-github
   # - robert.ruby-snippet
   # - sensourceinc.vscode-sql-beautify
+
+mise_tool_names:
+  - ruby
+  - go
+  - node
+  - yarn

@@ -54,17 +54,11 @@ resources:
   - type: symlink
     destination: /Users/<%= ENV["USER"] %>/src/github.com/toshimaru/dotfiles/.default-gems
     source: /Users/<%= ENV["USER"] %>/.default-gems
-  # Install tools via mise
-  - type: mise_use
-    name: ruby
-  - type: mise_use
-    name: go
-  - type: mise_use
-    name: node
   - type: mise_install
     name: yarn
     version: "1"
-  - type: mise_install
-    name: yarn
+  <%- mise_tool_names.each do |tool_name| -%>
   - type: mise_use
-    name: yarn
+    name: <%= tool_name %>
+    version: latest
+  <%- end -%>
