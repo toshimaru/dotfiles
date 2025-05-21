@@ -8,6 +8,8 @@
   autosquash = true
   autostash = true
   abbreviateCommands = true
+[fetch]
+  prune = true
 [init]
   defaultBranch = main
 [ghq]

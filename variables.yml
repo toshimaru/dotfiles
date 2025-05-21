@@ -3,13 +3,11 @@ homebrew_package_names:
   - bash
   - bat
   - cloudflared
-  - deno
   - fzf
   - gh
   - ghq
   - git
   - git-delta
-  - go
   - htop
   - iproute2mac
   - jq
@@ -122,3 +120,10 @@ vscode_package_names:
   - ziyasal.vscode-open-in-github
   # - robert.ruby-snippet
   # - sensourceinc.vscode-sql-beautify
+
+mise_tool_names:
+  - deno
+  - go
+  - node
+  - ruby
+  - yarn
