@@ -4,6 +4,11 @@
 [core]
   autocrlf = input
   editor = vim
+  ; pager = delta
+[delta]
+  navigate = true
+  line-numbers = true
+  ; side-by-side = true
 [rebase]
   autosquash = true
   autostash = true
@@ -49,9 +54,9 @@
   pick = cherry-pick
   wip = commit --allow-empty -m '[ci skip] WIP'
   # require peco (https://github.com/peco/peco)
-  lsc = !git ls-files | peco | xargs cat
-  lso = !git ls-files | peco | xargs open
-  lsv = !git ls-files | peco | xargs -o vim
+  lsc = !git ls-files | peco | xargs -t cat
+  lso = !git ls-files | peco | xargs -t open
+  lsv = !git ls-files | peco | xargs -to vim
   swb = !git branch  --sort=-committerdate | tr -d '* ' | peco | xargs git switch
   grepv = "!git grep ${1} | peco | awk -F ':' '{print $1}' | xargs -o vim && true"
   grepo = "!git grep -n ${1} | peco | awk -F ':' '{print $1 \":\" $2}' | xargs gh browse && true"

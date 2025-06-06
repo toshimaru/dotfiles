@@ -56,3 +56,6 @@ let g:NERDSpaceDelims = 1
 
 " grep + cwindow
 autocmd QuickFixCmdPost *grep* cwindow
+
+" ctrlp + git ls-files
+let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard']
