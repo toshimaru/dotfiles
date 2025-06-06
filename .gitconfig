@@ -4,6 +4,11 @@
 [core]
   autocrlf = input
   editor = vim
+  ; pager = delta
+[delta]
+  navigate = true
+  line-numbers = true
+  ; side-by-side = true
 [rebase]
   autosquash = true
   autostash = true
