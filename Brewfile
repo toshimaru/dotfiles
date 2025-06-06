@@ -5,6 +5,7 @@ brew 'mise'
 brew 'pstree'
 brew 'ripgrep'
 brew 'tree'
+brew 'vim'
 brew 'watch'
 brew 'wget'
 
