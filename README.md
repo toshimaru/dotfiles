@@ -6,7 +6,7 @@ My dotfiles.
 
 ## Prerequisites
 
-- macOS v14 or more
+- macOS v14 or later
 - Apple Silicon Mac
 - Ruby v2.7 or more
 
