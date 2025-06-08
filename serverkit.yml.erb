@@ -41,19 +41,19 @@ resources:
       sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
   # symlinks
   - type: symlink
-    destination: /Users/<%= ENV["USER"] %>/src/github.com/toshimaru/dotfiles/.vimrc
-    source: /Users/<%= ENV["USER"] %>/.vimrc
+    destination: /Users/<%= ENV["USER"] %>/.vimrc
+    source: /Users/<%= ENV["USER"] %>/src/github.com/toshimaru/dotfiles/.vimrc
   - type: symlink
-    destination: /Users/<%= ENV["USER"] %>/src/github.com/toshimaru/dotfiles/.tigrc
-    source: /Users/<%= ENV["USER"] %>/.tigrc
+    destination: /Users/<%= ENV["USER"] %>/.tigrc
+    source: /Users/<%= ENV["USER"] %>/src/github.com/toshimaru/dotfiles/.tigrc
   - type: directory
     path: /Users/<%= ENV["USER"] %>/.config/git/
   - type: symlink
-    destination: /Users/<%= ENV["USER"] %>/src/github.com/toshimaru/dotfiles/.global_ignore
-    source: /Users/<%= ENV["USER"] %>/.config/git/ignore
+    destination: /Users/<%= ENV["USER"] %>/.config/git/ignore
+    source: /Users/<%= ENV["USER"] %>/src/github.com/toshimaru/dotfiles/.global_ignore
   - type: symlink
-    destination: /Users/<%= ENV["USER"] %>/src/github.com/toshimaru/dotfiles/.default-gems
-    source: /Users/<%= ENV["USER"] %>/.default-gems
+    destination: /Users/<%= ENV["USER"] %>/.default-gems
+    source: /Users/<%= ENV["USER"] %>/src/github.com/toshimaru/dotfiles/.default-gems
   - type: mise_install
     name: yarn
     version: "1"
