@@ -1,4 +1,4 @@
-# To install oh-my-zsh, see https://github.com/robbyrussell/oh-my-zsh
+# To install oh-my-zsh, see https://github.com/ohmyzsh/ohmyzsh
 
 # oh-my-zsh plugins. Change as needed.
 plugins=(
