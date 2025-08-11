@@ -44,7 +44,7 @@ homebrew_cask_package_names:
   - deckset
   - devtoys
   - discord
-  - docker
+  - docker-desktop
   - dropbox
   - enpass
   - firefox
@@ -71,7 +71,7 @@ homebrew_cask_package_names:
   - sublime-text
   - typora
   - visual-studio-code
-  - wireshark
+  - wireshark-app
   - zed
   # - chromedriver
   # - google-cloud-sdk
