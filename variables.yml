@@ -44,7 +44,7 @@ homebrew_cask_package_names:
   - deckset
   - devtoys
   - discord
-  - docker
+  - docker-desktop
   - dropbox
   - enpass
   - firefox
