@@ -11,5 +11,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: brew bundle & bundle install & serverkit apply
         run: ./serverkit-setup.bash
+        continue-on-error: true
+      - run: mise use --global yarn@latest
       - name: serverkit check
         run: bundle install && bundle exec serverkit check serverkit.yml.erb --variables=variables.yml
