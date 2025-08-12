@@ -27,7 +27,7 @@ GEM
       reline
     i18n (1.14.7)
       concurrent-ruby (~> 1.0)
-    io-console (0.8.0)
+    io-console (0.8.1)
     logger (1.7.0)
     minitest (5.25.5)
     net-scp (4.1.0)
@@ -35,7 +35,7 @@ GEM
     net-ssh (7.3.0)
     net-telnet (0.2.0)
     rainbow (3.1.1)
-    reline (0.6.1)
+    reline (0.6.2)
       io-console (~> 0.5)
     securerandom (0.4.1)
     serverkit (1.0.0)
