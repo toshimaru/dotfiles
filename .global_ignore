@@ -219,3 +219,5 @@ mise.toml
 
 ### zed ###
 .zed
+
+**/.claude/settings.local.json
