@@ -91,7 +91,6 @@ vscode_package_names:
   - chunsen.bracket-select
   - denoland.vscode-deno
   - docker.docker
-  - equinusocio.vsc-material-theme
   - github.codespaces
   - github.copilot
   - github.copilot-chat
@@ -114,6 +113,7 @@ vscode_package_names:
   - syler.sass-indented
   - tamasfe.even-better-toml
   - toshimaru.hybrid-next-plus
+  - vira.vsc-vira-theme
   - vsls-contrib.gistfs
   - wraith13.open-in-github-desktop
   - yzhang.markdown-all-in-one
