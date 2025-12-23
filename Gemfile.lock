@@ -27,7 +27,7 @@ GEM
     i18n (1.14.7)
       concurrent-ruby (~> 1.0)
     io-console (0.8.2)
-    json (2.17.1)
+    json (2.18.0)
     logger (1.7.0)
     minitest (6.0.0)
       prism (~> 1.5)
