@@ -11,7 +11,8 @@ brew update && brew bundle
 # Use the latest Ruby version and run serverkit
 mise use --global ruby
 eval "$(mise activate bash)"
-bundle install --path vendor/bundle --jobs 4 --retry 3
+bundle config set --local path 'vendor/bundle'
+bundle install --jobs 4 --retry 3
 
 # Install rosetta to fix "This package requires Rosetta 2 to be installed."
 if ! pgrep -q oahd; then
