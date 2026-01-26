@@ -1,6 +1,9 @@
 [user]
   name = toshimaru
   email = me@toshimaru.net
+  ; signingkey = /path/to/git_signing_key
+[init]
+  defaultBranch = main
 [core]
   autocrlf = input
   editor = vim
@@ -15,8 +18,10 @@
   abbreviateCommands = true
 [fetch]
   prune = true
-[init]
-  defaultBranch = main
+[commit]
+  ; gpgsign = true
+[gpg]
+  ; format = ssh
 [ghq]
   root = ~/src
 [alias]
