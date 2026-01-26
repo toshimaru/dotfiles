@@ -1,6 +1,9 @@
 [user]
   name = toshimaru
   email = me@toshimaru.net
+  ; signingkey = /path/to/git_signing_key
+[init]
+  defaultBranch = main
 [core]
   autocrlf = input
   editor = vim
@@ -15,8 +18,10 @@
   abbreviateCommands = true
 [fetch]
   prune = true
-[init]
-  defaultBranch = main
+[commit]
+  ; gpgsign = true
+[gpg]
+  ; format = ssh
 [ghq]
   root = ~/src
 [alias]
@@ -71,5 +76,7 @@
   list-pr = !gh pr list
   list-issue = !gh issue list
   list-myissue = !gh issue list --assignee @me
+  # require fzf
+  tig = "!git log --oneline --color=always | fzf --ansi --reverse --prompt 'Select a commit ' --preview 'git show --stat --patch --color=always {1}' | awk '{print $1}' | xargs git show"
   # require GitHub Desktop App (https://desktop.github.com/)
   app = !github .
