@@ -92,7 +92,6 @@ vscode_package_names:
   - denoland.vscode-deno
   - docker.docker
   - github.codespaces
-  - github.copilot
   - github.copilot-chat
   - github.vscode-github-actions
   - github.vscode-pull-request-github
@@ -118,7 +117,6 @@ vscode_package_names:
   - wraith13.open-in-github-desktop
   - yzhang.markdown-all-in-one
   - ziyasal.vscode-open-in-github
-  # - robert.ruby-snippet
   # - sensourceinc.vscode-sql-beautify
 
 mise_tool_names:
