@@ -30,7 +30,7 @@ GEM
     io-console (0.8.2)
     json (2.19.3)
     logger (1.7.0)
-    minitest (6.0.2)
+    minitest (6.0.3)
       drb (~> 2.0)
       prism (~> 1.5)
     net-scp (4.1.0)
