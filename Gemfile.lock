@@ -35,7 +35,7 @@ GEM
       prism (~> 1.5)
     net-scp (4.1.0)
       net-ssh (>= 2.6.5, < 8.0.0)
-    net-ssh (7.3.1)
+    net-ssh (7.3.2)
     net-telnet (0.2.0)
     prism (1.9.0)
     rainbow (3.1.1)
