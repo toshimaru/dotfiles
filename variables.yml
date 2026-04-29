@@ -55,7 +55,6 @@ homebrew_cask_package_names:
   - google-japanese-ime
   - imageoptim
   - insomnia
-  - iterm2
   - jetbrains-toolbox
   - keybase
   - krisp

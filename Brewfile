@@ -14,7 +14,6 @@ cask 'font-dejavu'
 cask 'font-jetbrains-mono'
 cask 'font-monaspace'
 cask 'font-moralerspace'
-cask 'iterm2'
 
 # Require `mas` and sign in to App Store.
 # mas 'Gapplin', id: 768053424
