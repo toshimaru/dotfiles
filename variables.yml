@@ -16,6 +16,7 @@ homebrew_package_names:
   - memcached
   - mas
   - mise
+  - msedit
   - mysql
   - peco
   - pstree
@@ -31,6 +32,7 @@ homebrew_package_names:
   - vim
   - watch
   - wget
+  - witr
   - zsh
 
 homebrew_cask_package_names:
