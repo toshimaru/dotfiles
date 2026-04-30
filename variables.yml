@@ -3,6 +3,7 @@ homebrew_package_names:
   - bash
   - bat
   - cloudflared
+  - codex
   - fzf
   - gh
   - ghq
@@ -15,6 +16,7 @@ homebrew_package_names:
   - memcached
   - mas
   - mise
+  - msedit
   - mysql
   - peco
   - pstree
@@ -30,6 +32,7 @@ homebrew_package_names:
   - vim
   - watch
   - wget
+  - witr
   - zsh
 
 homebrew_cask_package_names:
@@ -38,6 +41,7 @@ homebrew_cask_package_names:
   - chatgpt
   - choosy
   - claude
+  - codex-app
   - cleanshot
   - cloudflare-warp
   - dash
@@ -55,7 +59,6 @@ homebrew_cask_package_names:
   - google-japanese-ime
   - imageoptim
   - insomnia
-  - iterm2
   - jetbrains-toolbox
   - keybase
   - krisp
