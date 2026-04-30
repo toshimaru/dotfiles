@@ -7,6 +7,7 @@ brew 'ripgrep'
 brew 'tree'
 brew 'vim'
 brew 'watch'
+brew 'witr'
 brew 'wget'
 
 cask 'font-cica'
