@@ -2,6 +2,7 @@
 
 brew 'git'
 brew 'mise'
+brew 'msedit'
 brew 'pstree'
 brew 'ripgrep'
 brew 'tree'
