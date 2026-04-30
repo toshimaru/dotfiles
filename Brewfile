@@ -1,6 +1,5 @@
 # Run `brew bundle` to install the following packages.
 
-brew 'codex'
 brew 'git'
 brew 'mise'
 brew 'msedit'
@@ -12,7 +11,6 @@ brew 'watch'
 brew 'witr'
 brew 'wget'
 
-cask 'codex-app'
 cask 'font-cica'
 cask 'font-dejavu'
 cask 'font-jetbrains-mono'
