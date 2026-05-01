@@ -56,7 +56,6 @@ homebrew_cask_package_names:
   - github
   - google-chrome
   - google-drive
-  - google-gemini
   - google-japanese-ime
   - imageoptim
   - insomnia
@@ -96,7 +95,6 @@ vscode_package_names:
   - denoland.vscode-deno
   - docker.docker
   - github.codespaces
-  - github.copilot-chat
   - github.vscode-github-actions
   - github.vscode-pull-request-github
   - golang.go
