@@ -15,6 +15,7 @@ homebrew_package_names:
   - memcached
   - mas
   - mise
+  - msedit
   - mysql
   - peco
   - pstree
@@ -30,6 +31,7 @@ homebrew_package_names:
   - vim
   - watch
   - wget
+  - witr
   - zsh
 
 homebrew_cask_package_names:
@@ -38,6 +40,8 @@ homebrew_cask_package_names:
   - chatgpt
   - choosy
   - claude
+  - codex
+  - codex-app
   - cleanshot
   - cloudflare-warp
   - dash
@@ -55,7 +59,6 @@ homebrew_cask_package_names:
   - google-japanese-ime
   - imageoptim
   - insomnia
-  - iterm2
   - jetbrains-toolbox
   - keybase
   - krisp
@@ -92,7 +95,6 @@ vscode_package_names:
   - denoland.vscode-deno
   - docker.docker
   - github.codespaces
-  - github.copilot-chat
   - github.vscode-github-actions
   - github.vscode-pull-request-github
   - golang.go
