@@ -3,7 +3,6 @@ homebrew_package_names:
   - bash
   - bat
   - cloudflared
-  - codex
   - fzf
   - gh
   - ghq
@@ -41,6 +40,7 @@ homebrew_cask_package_names:
   - chatgpt
   - choosy
   - claude
+  - codex
   - codex-app
   - cleanshot
   - cloudflare-warp
