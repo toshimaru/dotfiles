@@ -78,7 +78,6 @@ homebrew_cask_package_names:
   - zed
   # - chromedriver
   # - google-cloud-sdk
-  # - grishka/grishka/neardrop # Add `--no-quarantine` option
   # - logi-options+
   # - utm
   # - vox
