@@ -83,7 +83,6 @@ homebrew_cask_package_names:
 
 vscode_package_names:
   - aaron-bond.better-comments
-  - alefragnani.bookmarks
   - arcticicestudio.nord-visual-studio-code
   - britesnow.vscode-toggle-quotes
   - christian-kohler.path-intellisense
