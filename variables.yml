@@ -25,7 +25,6 @@ homebrew_package_names:
   - starship
   - tig
   - toshimaru/nyan/nyan
-  - toshimaru/torch/torch-cmd
   - tre-command
   - tree
   - vim
