@@ -8,7 +8,7 @@ jobs:
     runs-on: ${{ matrix.os }}
     timeout-minutes: 25
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
       - name: brew bundle & bundle install & serverkit apply
         run: ./serverkit-setup.bash
       - name: serverkit check
