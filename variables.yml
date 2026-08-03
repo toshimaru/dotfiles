@@ -38,10 +38,10 @@ homebrew_cask_package_names:
   - bartender
   - brave-browser
   - chatgpt
+  - chatgpt-classic
   - choosy
   - claude
   - codex
-  - codex-app
   - cleanshot
   - cloudflare-warp
   - deckset
